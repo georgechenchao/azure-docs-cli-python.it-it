@@ -12,8 +12,8 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: ea5c0ee1-c530-4a1e-a83f-e1be71f6d416
-ms.openlocfilehash: b7c0b7c50794333b28c034de9b41f1e506053e25
-ms.sourcegitcommit: 663d4188ccc4be425d3d551fe32613fafd05a764
+ms.openlocfilehash: 664535701ad814f8ff85fefe8ecc45772777d0ba
+ms.sourcegitcommit: ec22ff07aedb5c47e5f636f2a9a341c3edbe7ca1
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ---
@@ -60,23 +60,14 @@ Se non si usa Bash, è possibile installare e usare l'interfaccia della riga di 
 
 2. Aprire la shell di Bash.
 
-3. Se Python non è disponibile, installarlo.
-
-   ```bash
-   sudo apt-get install python3
-   ```
-
-   > [!NOTE]
-   > Per verificare se Python è installato, eseguire `python --version`.
-
-4. Modificare l'elenco di origini.
+3. Modificare l'elenco di origini.
 
    ```bash
    echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ wheezy main" | \
         sudo tee /etc/apt/sources.list.d/azure-cli.list
    ```
 
-5. Eseguire i comandi sudo seguenti:
+4. Eseguire i comandi sudo seguenti:
 
    ```bash
    sudo apt-key adv --keyserver packages.microsoft.com --recv-keys 417A0893
