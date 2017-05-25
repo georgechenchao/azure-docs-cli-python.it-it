@@ -12,10 +12,11 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 80ae9f6c-adb7-483c-bfb4-fbb958e075ba
-ms.openlocfilehash: 2f4f9950dd663ae85f41bf4efe114b15770ace5d
-ms.sourcegitcommit: bcf93ad8ed8802072249cd8187cd4420da89b4c6
+ms.openlocfilehash: 35e754b4ecd75481bd60d95dd1545b798c2e85b3
+ms.sourcegitcommit: c077bd5cbe07f7225714c41714d3981fa0d9928f
 ms.translationtype: HT
 ms.contentlocale: it-IT
+ms.lasthandoff: 05/16/2017
 ---
 # <a name="azure-cli-20"></a>Interfaccia della riga di comando di Azure 2.0
 
@@ -27,7 +28,8 @@ L'interfaccia della riga di comando di Azure 2.0 è ottimizzata per la gestione 
 az vm create -n MyLinuxVM -g MyResourceGroup --image UbuntuLTS
 ```
 
-Per installare l'interfaccia di comando di Azure 2.0 sul proprio sistema, vedere l'[articolo relativo all'installazione](install-azure-cli.md). Quindi leggere l'articolo relativo all'[introduzione](get-started-with-azure-cli.md) per iniziare a usarla.
+Esaminare l'[articolo sull'installazione](install-azure-cli.md) per attivare l'interfaccia della riga di comando di Azure 2.0 ed eseguirla nel sistema, oppure usare [Cloud Shell](/azure/cloud-shell/overview) per eseguire l'interfaccia della riga di comando nel browser.
+Leggere l'articolo [Introduzione](get-started-with-azure-cli.md) per iniziare a usare l'interfaccia della riga di comando.
 Per informazioni sulla versione più recente, vedere le [note sulla versione](release-notes-azure-cli.md).
 
 Gli esempi seguenti aiutano a eseguire scenari comuni con l'interfaccia della riga di comando di Azure 2.0:

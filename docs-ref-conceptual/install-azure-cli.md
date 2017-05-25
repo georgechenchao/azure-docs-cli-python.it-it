@@ -12,10 +12,11 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: ea5c0ee1-c530-4a1e-a83f-e1be71f6d416
-ms.openlocfilehash: 664535701ad814f8ff85fefe8ecc45772777d0ba
-ms.sourcegitcommit: ec22ff07aedb5c47e5f636f2a9a341c3edbe7ca1
+ms.openlocfilehash: 7065ed5270ef9bfc70beea81d0bc442a7b4df38c
+ms.sourcegitcommit: c077bd5cbe07f7225714c41714d3981fa0d9928f
 ms.translationtype: HT
 ms.contentlocale: it-IT
+ms.lasthandoff: 05/16/2017
 ---
 # <a name="install-azure-cli-20"></a>Installare l'interfaccia della riga di comando di Azure 2.0
 
@@ -51,10 +52,19 @@ Per informazioni sulla versione più recente, vedere le [note sulla versione](re
 
 ## <a name="windows"></a>Windows
 
-L'interfaccia della riga di comando di Azure 2.0 supporta la sintassi dei comandi di Bash, facendo di Bash in Ubuntu in Windows un'ottima soluzione per usare l'interfaccia della riga di comando.
-Se non si usa Bash, è possibile installare e usare l'interfaccia della riga di comando nella riga di comando di Windows.
+È possibile installare l'interfaccia della riga di comando con MSI e usarla nella riga di comando di Windows, oppure è possibile installare l'interfaccia della riga di comando con apt-get su Bash di Ubuntu in Windows.
 
-### <a name="bash-on-ubuntu-on-windows"></a>Bash in Ubuntu in Windows
+### <a name="msi-for-the-windows-command-line"></a>MSI per la riga di comando di Windows 
+
+Per installare l'interfaccia della riga di comando in Windows e usarla nella riga di comando di Windows, scaricare ed eseguire [MSI](https://aka.ms/InstallAzureCliWindows).
+
+> [!NOTE]
+> Quando si esegue l'installazione con MSI, `az component` non è supportato.
+> Per eseguire l'aggiornamento all'interfaccia della riga di comando più recente, eseguire di nuovo [MSI](https://aka.ms/InstallAzureCliWindows).
+> 
+> Per disinstallare l'interfaccia della riga di comando, eseguire di nuovo [MSI](https://aka.ms/InstallAzureCliWindows) e scegliere Disinstalla.
+
+### <a name="apt-get-for-bash-on-ubuntu-on-windows"></a>apt-get per Bash in Ubuntu in Windows
 
 1. Se Bash in Windows non è disponibile, [installarlo](https://msdn.microsoft.com/commandline/wsl/install_guide).
 
@@ -80,38 +90,6 @@ Se non si usa Bash, è possibile installare e usare l'interfaccia della riga di 
 > Per aggiornare l'interfaccia della riga di comando, eseguire di nuovo `sudo apt-get update && sudo apt-get install azure-cli`.
 > 
 > Per eseguire la disinstallazione, eseguire `sudo apt-get remove azure-cli`.
-
-### <a name="windows-command-line"></a>Riga di comando di Windows 
-
-1. Visitare il sito Python e [scaricare Python](https://www.python.org/downloads/) per Windows.
-   Assicurarsi di installare il componente Pip durante l'installazione di Python.
-   Al termine dell'installazione, aggiungere Python alla variabile di ambiente PATH quando viene chiesto dal programma di installazione.
-
-2. Controllare l'installazione di Python da un prompt dei comandi.
-
-   ```bash
-   python --version
-   ```
-
-3. Installare l'interfaccia della riga di comando di Azure 2.0 usando `pip`.
-
-   ```bash
-   pip install --user azure-cli
-   ```
-
-4. Aggiungere la cartella che contiene az.bat al percorso.
-   Il file `az.bat` dell'interfaccia della riga di comando può essere installato in `%USERPROFILE%\AppData\Roaming\Python\Scripts` o `%USERPROFILE%\AppData\Roaming\Python\PythonXY\Scripts` dove `XY` è la versione di Python in uso, ad esempio `%USERPROFILE%\AppData\Roaming\Python\Python27\Scripts`.
-   Aggiungere la cartella che contiene `az.bat` al percorso.
-   
-4. Eseguire l'interfaccia della riga di comando di Azure 2.0 dal prompt dei comandi con il comando `az`.
-
-> [!NOTE]
-> Se l'interfaccia della riga di comando di Azure 2.0 è installata e si vuole verificare se si ha la versione più recente, usare `az --version` per visualizzare la versione in uso.
-> Confrontarla con la versione più recente disponibile all'indirizzo [https://pypi.python.org/pypi/azure-cli](https://pypi.python.org/pypi/azure-cli).
-> 
-> Per eseguire l'aggiornamento all'interfaccia della riga di comando più recente, eseguire `az component update`.
-> 
-> Per disinstallare l'interfaccia della riga di comando, eseguire `pip uninstall azure-cli`.
 
 ## <a name="linux"></a>Linux
 
@@ -213,7 +191,6 @@ Per i sistemi basati su Debian/Ubuntu, è possibile installare l'interfaccia del
    ```
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
--------------------------------
 
 ### <a name="errors-with-curl-redirection"></a>Errori relativi al reindirizzamento di curl
 
@@ -232,70 +209,6 @@ bash: line 1: syntax error near unexpected token `<'
 curl https://azurecliprod.blob.core.windows.net/install | bash
 ```
 
-
-### <a name="errors-on-install-with-cffi-or-cryptography"></a>Errori di installazione con `cffi` o di crittografia
-
-Se si verificano errori di installazione in OS X, aggiornare `pip`.
-
-```bash
-pip install --upgrade --force-reinstall pip
-```
-
-Se si verificano errori di installazione in **Debian** o in **Ubuntu**, come in questi esempi, installare `libssl-dev` e `libffi-dev`.
-
-```bash
-sudo apt-get update
-sudo apt-get install -y libssl-dev libffi-dev
-```
-
-Installare anche Python Dev per la versione di Python in uso.
-
-Python 2:
-
-```bash
-sudo apt-get install -y python-dev
-```
-
-Python 3:
-
-```bash
-sudo apt-get install -y python3-dev
-```
-
-Per Ubuntu 15 potrebbe essere necessario anche `build-essential`:
-
-```bash
-sudo apt-get install -y build-essential
-```
-
-### <a name="example-errors"></a>Errori di esempio
-
-```
-Downloading cffi-1.5.2.tar.gz (388kB)
-    100% |################################| 389kB 3.9MB/s
-    Complete output from command python setup.py egg_info:
-
-        No working compiler found, or bogus compiler options
-        passed to the compiler from Python's distutils module.
-        See the error messages above.
-        (If they are about -mno-fused-madd and you are on OS/X 10.8,
-        see http://stackoverflow.com/questions/22313407/ .)
-
-    ----------------------------------------
-Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-77i2fido/cffi/
-```
-
-```
-#include <openssl/e_os2.h>
-                            ^
-compilation terminated.
-error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
-
-Failed building wheel for cryptography
-```
-
-Vedere la domanda in Stack Overflow: [Failed to install Python Cryptography package with PIP and setup.py](http://stackoverflow.com/questions/22073516/failed-to-install-python-cryptography-package-with-pip-and-setup-py) (Non è possibile installare il pacchetto Cryptography per Python con PIP e setup.py).
-
 ## <a name="uninstall"></a>Disinstallare
 
 Se è stato usato lo script all'indirizzo https://aka.ms/InstallAzureCli per installare l'interfaccia della riga di comando, è possibile disinstallarla eseguendo questa procedura.
@@ -312,7 +225,7 @@ Se è stato usato lo script all'indirizzo https://aka.ms/InstallAzureCli per ins
 > [!Note]
 > Il percorso di installazione predefinito è `/Users/<username>`.
 
-Se è stato usato pip, apt-get o Docker per installare l'interfaccia della riga di comando, usare lo stesso strumento per disinstallarla.
+Se è stato usato apt-get, Docker o MSI per installare l'interfaccia della riga di comando, usare lo stesso strumento per disinstallarla.
 
 ## <a name="reporting-issues-and-feedback"></a>Segnalazione di problemi e suggerimenti
 

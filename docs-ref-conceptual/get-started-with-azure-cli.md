@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 85c418a8-6177-4833-bb8d-ff4ce2233c1a
-ms.openlocfilehash: 0f8e494ffdd73c666b8361488db0966af01d6876
-ms.sourcegitcommit: 66d997a5afcf32143a4d4817ec1608cbdf58a59f
+ms.openlocfilehash: 45e51918ec95494699bf781f66e4cd57bd06fbad
+ms.sourcegitcommit: b4cb5c910b2238cba342f70122feb158c4036844
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2017
+ms.lasthandoff: 05/18/2017
 ---
 # <a name="get-started-with-azure-cli-20"></a>Introduzione all'interfaccia della riga di comando di Azure 2.0
 
@@ -40,6 +40,9 @@ Verrà visualizzato il numero di versione dell'interfaccia della riga di comando
   
 Se si presenta un errore, è possibile che si sia verificato un problema durante l'installazione dell'interfaccia della riga di comando. Per istruzioni, vedere la sezione relativa alla risoluzione dei problemi di installazione dell'[articolo sull'installazione dell'interfaccia della riga di comando 2.0](install-azure-cli.md#troubleshooting) o pubblicare un commento nella discussione nella parte inferiore della pagina per ottenere assistenza.
 
+> [!Note]
+> Se non si desidera installare l'interfaccia della riga di comando di Azure 2.0, è possibile usare [Cloud Shell](/azure/cloud-shell/overview) per eseguirla nel browser.
+
 ## <a name="log-in-to-azure"></a>Accedere ad Azure
 
 Dopo aver installato l'interfaccia della riga di comando di Azure 2.0, occorre connetterla in modo sicuro con l'account Azure. A tale fine, usare il comando `az login`.
@@ -62,7 +65,7 @@ Ora è possibile eseguire comandi dall'interfaccia della riga di comando di Azur
 
 Dopo aver eseguito tutte le impostazioni, è possibile usare l'interfaccia della riga di comando di Azure per creare risorse in Azure.
 
-Creare innanzitutto un gruppo di risorse.  I gruppi di risorse di Azure consentono di gestire più risorse che si desidera raggruppare insieme in modo logico.  Ad esempio, è possibile creare un gruppo di risorse per un'applicazione o un progetto e aggiungere una macchina virtuale, un database e un servizio della rete CDN in esso contenuti.
+Si crea prima un gruppo di risorse.  I gruppi di risorse di Azure consentono di gestire numero risorse che si desidera raggruppare in modo logico.  Ad esempio, è possibile creare un gruppo di risorse per un'applicazione o un progetto e aggiungere una macchina virtuale, un database e un servizio rete CDN al suo interno.
 
 Creare un gruppo di risorse denominato "MyResourceGroup" nell'area *westus2* di Azure.  A questo scopo, usare il comando seguente:
 
@@ -89,7 +92,7 @@ Dopo aver creato il gruppo di risorse, il comando `az group create` restituisce 
 
 Con un gruppo di risorse disponibile, creare una macchina virtuale Linux contenuta in esso.
 
-È possibile creare una macchina virtuale Linux VM usando la comune immagine UbuntuTLS con due dischi di archiviazione di 10 GB e 20 GB collegati, mediante il comando seguente:
+È possibile creare una macchina virtuale Linux usando la comune immagine UbuntuTLS con due dischi di archiviazione di 10 GB e 20 GB collegati, mediante il comando seguente:
 
 ```azurecli-interactive
 az vm create -n MyLinuxVM -g MyResourceGroup --image UbuntuLTS --data-disk-sizes-gb 10 20
@@ -237,7 +240,7 @@ SQL Database Server         az sql server create
 Document DB                 az documentdb create
 ```
 
-Per altre informazioni su ulteriori parametri specifici delle risorse che è possibile passare a ognuno dei comandi precedenti e sui tipi di risorse che è possibile creare, vedere la [documentazione di riferimento](/azure/doc-ref-autogen). 
+Per altre informazioni su ulteriori parametri specifici delle risorse che è possibile passare a ognuno dei comandi precedenti e sui tipi di risorse che è possibile creare, vedere la [documentazione di riferimento](/cli/azure). 
 
 ## <a name="useful-tip-optimizing-create-operations-using---no-wait"></a>Suggerimento utile: ottimizzazione delle operazioni di creazione usando --no-wait
 
