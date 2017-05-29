@@ -12,54 +12,35 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 85c418a8-6177-4833-bb8d-ff4ce2233c1a
-ms.openlocfilehash: 45e51918ec95494699bf781f66e4cd57bd06fbad
-ms.sourcegitcommit: b4cb5c910b2238cba342f70122feb158c4036844
+ms.openlocfilehash: 274336acbf09a21d45b6ef3868f5f7f21757831b
+ms.sourcegitcommit: 21c42ed07c9f7679e4860013ac5647cf31213f4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2017
+ms.lasthandoff: 05/22/2017
 ---
 # <a name="get-started-with-azure-cli-20"></a>Introduzione all'interfaccia della riga di comando di Azure 2.0
 
 L'interfaccia della riga di comando di Azure 2.0 è la nuova esperienza della riga di comando di Azure per gestire le risorse di Azure.
-Può essere usata in macOS, Linux e Windows. 
+È possibile usarla nel browser con [Azure Cloud Shell](/azure/cloud-shell/overview) oppure [installarla](install-azure-cli.md) in macOS, Linux e Windows ed eseguirla dalla riga di comando.
 
 L'interfaccia della riga di comando di Azure 2.0 è ottimizzata per la gestione e l'amministrazione delle risorse di Azure dalla riga di comando e per la creazione di script di automazione che funzionano con Azure Resource Manager.
 Questo articolo offre un'introduzione all'uso e ne illustra i concetti di base.
 
 Per informazioni sulla versione più recente, vedere le [note sulla versione](release-notes-azure-cli.md).
 
-## <a name="install-azure-cli"></a>Installare l'interfaccia da riga di comando di Azure
+## <a name="connect"></a>Connettere
 
-Il primo passaggio è verificare di aver installato l'ultima versione dell'interfaccia della riga di comando di Azure:
+Il modo più semplice per iniziare è [avviare Cloud Shell](/azure.cloud-shell/quickstart).
 
-1. [Installare l'interfaccia della riga di comando di Azure 2.0](install-azure-cli.md) su ogni piattaforma che si usa.
+1. Avviare Cloud Shell dal riquadro di spostamento in alto nel portale di Azure.
 
-2. Per verificare che l'installazione sia riuscita, eseguire `az --version` dalla riga di comando. 
+   ![Icona di Shell](media/get-started-with-azure-cli/shell-icon.png)
 
-Verrà visualizzato il numero di versione dell'interfaccia della riga di comando di Azure e delle altre librerie dipendenti installate sul computer.  
-  
-Se si presenta un errore, è possibile che si sia verificato un problema durante l'installazione dell'interfaccia della riga di comando. Per istruzioni, vedere la sezione relativa alla risoluzione dei problemi di installazione dell'[articolo sull'installazione dell'interfaccia della riga di comando 2.0](install-azure-cli.md#troubleshooting) o pubblicare un commento nella discussione nella parte inferiore della pagina per ottenere assistenza.
+2. Scegliere la sottoscrizione da usare e creare un account di archiviazione.
 
-> [!Note]
-> Se non si desidera installare l'interfaccia della riga di comando di Azure 2.0, è possibile usare [Cloud Shell](/azure/cloud-shell/overview) per eseguirla nel browser.
+   ![Creare un account di archiviazione](media/get-started-with-azure-cli/storage-prompt.png)
 
-## <a name="log-in-to-azure"></a>Accedere ad Azure
-
-Dopo aver installato l'interfaccia della riga di comando di Azure 2.0, occorre connetterla in modo sicuro con l'account Azure. A tale fine, usare il comando `az login`.
-
-1. Eseguire il comando seguente dalla riga di comando.
-
-   ```azurecli-interactive
-   az login
-   ```
-   
-   Questo comando restituirà un codice da usare nel passaggio successivo. 
-
-2. Usare un Web browser per aprire la pagina [https://aka.ms/devicelogin](https://aka.ms/devicelogin) e immettere il codice.
-  
-3. Al prompt dei comandi, accedere usando le credenziali di Azure.
-
-Ora è possibile eseguire comandi dall'interfaccia della riga di comando di Azure 2.0 sulle risorse e sui servizi Azure disponibili al proprio account.
+È anche possibile [installare](install-azure-cli.md) l'interfaccia della riga di comando ed eseguirla localmente dalla riga di comando.
 
 ## <a name="create-a-resource-group"></a>Creare un gruppo di risorse
 

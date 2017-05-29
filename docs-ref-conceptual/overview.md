@@ -12,15 +12,16 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 80ae9f6c-adb7-483c-bfb4-fbb958e075ba
-ms.openlocfilehash: 35e754b4ecd75481bd60d95dd1545b798c2e85b3
-ms.sourcegitcommit: c077bd5cbe07f7225714c41714d3981fa0d9928f
+ms.openlocfilehash: 2f2fe7e8643256f72ff5dd48c784b96e53c4c281
+ms.sourcegitcommit: 21c42ed07c9f7679e4860013ac5647cf31213f4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2017
+ms.lasthandoff: 05/22/2017
 ---
 # <a name="azure-cli-20"></a>Interfaccia della riga di comando di Azure 2.0
 
-L'interfaccia della riga di comando di Azure 2.0 è la nuova esperienza della riga di comando di Azure per gestire le risorse di Azure.  Può essere usata in macOS, Linux e Windows. 
+L'interfaccia della riga di comando di Azure 2.0 è la nuova esperienza della riga di comando di Azure per gestire le risorse di Azure.
+È possibile usarla nel browser con [Azure Cloud Shell](/azure/cloud-shell/overview) oppure [installarla](install-azure-cli.md) in macOS, Linux e Windows ed eseguirla dalla riga di comando.
 
 L'interfaccia della riga di comando di Azure 2.0 è ottimizzata per la gestione e l'amministrazione delle risorse di Azure dalla riga di comando e per la creazione di script di automazione che funzionano con Azure Resource Manager. Usando l'interfaccia della riga di comando di Azure 2.0, è possibile creare macchine virtuali in Azure semplicemente digitando i comandi seguenti:
 
@@ -28,7 +29,7 @@ L'interfaccia della riga di comando di Azure 2.0 è ottimizzata per la gestione 
 az vm create -n MyLinuxVM -g MyResourceGroup --image UbuntuLTS
 ```
 
-Esaminare l'[articolo sull'installazione](install-azure-cli.md) per attivare l'interfaccia della riga di comando di Azure 2.0 ed eseguirla nel sistema, oppure usare [Cloud Shell](/azure/cloud-shell/overview) per eseguire l'interfaccia della riga di comando nel browser.
+Usare [Cloud Shell](/azure/cloud-shell/overview) per eseguire l'interfaccia della riga di comando nel browser o [installarla](install-azure-cli.md) in macOS, Linux o Windows.
 Leggere l'articolo [Introduzione](get-started-with-azure-cli.md) per iniziare a usare l'interfaccia della riga di comando.
 Per informazioni sulla versione più recente, vedere le [note sulla versione](release-notes-azure-cli.md).
 
