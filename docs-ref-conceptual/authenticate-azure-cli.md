@@ -12,10 +12,11 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 65becd3a-9d69-4415-8a30-777d13a0e7aa
-ms.openlocfilehash: fea893ebd55811527e0e92375ffc081a52cdbb57
-ms.sourcegitcommit: bcf93ad8ed8802072249cd8187cd4420da89b4c6
+ms.openlocfilehash: 4ab4f0de38614eff00f55bad96ea886bb007f3c0
+ms.sourcegitcommit: 4fd631a58cf19c494162510d073fbbbdf0524d16
 ms.translationtype: HT
 ms.contentlocale: it-IT
+ms.lasthandoff: 06/05/2017
 ---
 # <a name="log-in-with-azure-cli-20"></a>Accedere con l'interfaccia della riga di comando di Azure 2.0
 
@@ -36,7 +37,7 @@ Fornire le credenziali dalla riga di comando.
 > [!Note]
 > Questo approccio non funziona con gli account Microsoft o gli account in cui è abilitata l'autenticazione a due fattori.
 
-```azurecli
+```azurecli-interactive
 az login -u <username> -p <password>
 ```
 
@@ -51,14 +52,13 @@ Per altre informazioni ed esempi di ruoli di entità servizio, vedere gli [artic
 
 1. Accedere con l'entità servizio.
 
-   ```azurecli
+   ```azurecli-interactive
    az login --service-principal -u "http://my-app" -p <password> --tenant <tenant>
    ```
 
    Per ottenere il proprio tenant, accedere in modo interattivo e ottenere il tenantId dalla sottoscrizione.
 
    ```azurecli
-   az login
    az account show
    ```
 
