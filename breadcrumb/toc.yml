@@ -1,0 +1,64 @@
+- name: Azure
+  tocHref: /azure/
+  topicHref: /azure/index
+  items:
+  - name: Interfaccia della riga di comando di Azure 2.0
+    tocHref: /cli/azure/overview
+    topicHref: /cli/azure/overview
+    items:
+    - name: Installa
+      tocHref: /cli/azure/install-azure-cli
+      topicHref: /cli/azure/install-azure-cli
+    - name: Attività iniziali
+      tocHref: /cli/azure/get-started-with-azure-cli
+      topicHref: /cli/azure/get-started-with-azure-cli
+    - name: Accesso
+      tocHref: /cli/azure/authenticate-azure-cli
+      topicHref: /cli/azure/authenticate-azure-cli
+      items:
+      - name: Creare un’entità servizio
+        tocHref: /cli/azure/create-an-azure-service-principal-azure-cli
+        topicHref: /cli/azure/create-an-azure-service-principal-azure-cli
+    - name: Modalità interattiva
+      tocHref: /cli/azure/interactive-azure-cli
+      topicHref: /cli/azure/interactive-azure-cli
+    - name: Distribuire
+      items:
+      - name: Con modelli
+        tocHref: /azure/azure-resource-manager/resource-group-template-deploy-cli
+        topicHref: /azure/azure-resource-manager/resource-group-template-deploy-cli
+      - name: Esporta modelli
+        tocHref: /azure/azure-resource-manager/resource-manager-export-template-cli
+        topicHref: /azure/azure-resource-manager/resource-manager-export-template-cli
+      - name: Con modelli privati
+        tocHref: /azure-resource-manager/resource-manager-cli-sas-token
+        topicHref: /azure-resource-manager/resource-manager-cli-sas-token
+    - name: Formati di output
+      tocHref: /cli/azure/format-output-azure-cli
+      topicHref: /cli/azure/format-output-azure-cli
+    - name: Query
+      tocHref: /cli/azure/query-azure-cli
+      topicHref: /cli/azure/query-azure-cli
+    - name: Sottoscrizioni
+      tocHref: /cli/azure/manage-azure-subscriptions-azure-cli
+      topicHref: /cli/azure/manage-azure-subscriptions-azure-cli
+    - name: Note sulla versione
+      tocHref: /cli/azure/release-notes-azure-cli
+      topicHref: /cli/azure/release-notes-azure-cli
+    - name: Script di esempio
+      items:
+      - name: Macchine virtuali di Linux
+        tocHref: /azure/virtual-machines/linux/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+        topicHref: /azure/virtual-machines/linux/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+      - name: Macchine virtuali di Windows
+        tocHref: /azure/virtual-machines/windows/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+        topicHref: /azure/virtual-machines/windows/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+      - name: App Web
+        tocHref: /azure/app-service-web/app-service-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+        topicHref: /azure/app-service-web/app-service-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+      - name: Database SQL
+        tocHref: /azure/sql-database/sql-database-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+        topicHref: /azure/sql-database/sql-database-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: Riferimento
+      tocHref: /cli/azure
+      topicHref: /cli/azure
