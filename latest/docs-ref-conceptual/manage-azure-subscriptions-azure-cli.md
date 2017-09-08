@@ -1,6 +1,6 @@
 ---
-title: Gestire le sottoscrizioni di Azure con l&quot;interfaccia della riga di comando di Azure 2.0
-description: Gestire le sottoscrizioni di Azure con l&quot;interfaccia della riga di comando di Azure 2.0 su Linux, Mac o Windows.
+title: Gestire le sottoscrizioni di Azure con l'interfaccia della riga di comando di Azure 2.0
+description: Gestire le sottoscrizioni di Azure con l'interfaccia della riga di comando di Azure 2.0 su Linux, Mac o Windows.
 keywords: Azure CLI 2.0, Linux, Mac, Windows, OS X, sottoscrizione
 author: kamaljit
 ms.author: routlaw
@@ -13,10 +13,10 @@ ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 98fb955e-6dbf-47e2-80ac-170d6d95cb70
 ms.openlocfilehash: 383fb6ebd90ac79f60869187b402d53d4f1791fd
-ms.sourcegitcommit: 4fd631a58cf19c494162510d073fbbbdf0524d16
+ms.sourcegitcommit: f107cf927ea1ef51de181d87fc4bc078e9288e47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2017
+ms.lasthandoff: 09/04/2017
 ---
 # <a name="manage-multiple-azure-subscriptions"></a>Gestire più sottoscrizioni di Azure
 

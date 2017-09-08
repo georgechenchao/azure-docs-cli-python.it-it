@@ -1,6 +1,6 @@
 ---
-title: "Modalità interattiva dell&quot;interfaccia della riga di comando di Azure 2.0"
-description: "Usare la modalità interattiva dell&quot;interfaccia della riga di comando di Azure 2.0."
+title: "Modalità interattiva dell'interfaccia della riga di comando di Azure 2.0"
+description: "Usare la modalità interattiva dell'interfaccia della riga di comando di Azure 2.0."
 keywords: "Interfaccia della riga di comando di Azure 2.0, modalità interattiva"
 author: rloutlaw
 ms.author: routlaw
@@ -13,10 +13,10 @@ ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: 
 ms.openlocfilehash: de6a366b84efa5475fd6146ff29c32e32dfe4672
-ms.sourcegitcommit: 1791991b82e6ce8ad4a050cab1695e0c93734e08
+ms.sourcegitcommit: f107cf927ea1ef51de181d87fc4bc078e9288e47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2017
+ms.lasthandoff: 09/04/2017
 ---
 # <a name="interactive-azure-cli-20"></a>Interfaccia della riga di comando di Azure 2.0 interattiva
 
@@ -26,7 +26,7 @@ Questo consente di accedere a una shell interattiva in cui i comandi vengono com
 ![modalità interattiva](./media/interactive-azure-cli/webapp-create.png)
 
 > [!NOTE]
-> Qui non viene usato lo stile predefinito, che non viene letto anche su sfondo nero.
+> Qui non viene usato lo stile predefinito, che non risulta leggibile su sfondo nero.
 
 Se l'utente non ha effettuato l'accesso al proprio account, usare il comando `login` per eseguire questa operazione.
 
@@ -75,7 +75,7 @@ az vm>> %%image
 az vm image>>
 ```
 
-A questo punto, potrebbe essere visualizzato il backup dell'ambito per `vm` usando `%%..` oppure è possibile definire l'ambito per la radice solo con `%%`.
+A questo punto, è possibile riportare l'ambito a `vm` usando `%%..` oppure è possibile definire l'ambito alla radice semplicemente con `%%`.
 
 ```azurecli
 az vm image>> %%
@@ -85,7 +85,7 @@ az>>
 ## <a name="query"></a>Query
 
 È possibile eseguire una query JMESPath sui risultati dell'ultimo comando eseguito.
-Ad esempio, dopo aver creato una macchina virtuale, è possibile assicurarsi che venga eseguito il provisioning completo.
+Ad esempio, dopo aver creato una macchina virtuale, è possibile assicurarsi che abbia completato il provisioning.
 
 ```azurecli
 az>> vm create --name myVM --resource-group myRG --image UbuntuLTS --no-wait
@@ -111,7 +111,7 @@ az>> #dir
 ## <a name="examples"></a>esempi
 
 Alcuni comandi hanno numerosi esempi.
-È possibile passare alla pagina successiva di esempi tramite `CTRL-N` e alla pagina precedente tramite `CTRL-Y`.
+È possibile passare alla pagina successiva di esempi usando `CTRL-N` e alla pagina precedente usando `CTRL-Y`.
 
 ![esempi](./media/interactive-azure-cli/examples.png)
 
