@@ -1,0 +1,2706 @@
+- name: riferimento
+  uid: az
+  items:
+    - name: Configurare
+      uid: az_configure
+      displayName: az configure
+    - name: Commenti e suggerimenti
+      uid: az_feedback
+      displayName: az feedback
+    - name: Find
+      uid: az_find
+      displayName: az find
+    - name: Interattività
+      uid: az_interactive
+      displayName: az interactive
+    - name: Login
+      uid: az_login
+      displayName: az login
+    - name: Disconnessione
+      uid: az_logout
+      displayName: az logout
+    - name: Gestione cloud
+      uid: az_cloud
+      displayName: az cloud
+      items:
+        - name: Elenco
+          uid: az_cloud_list
+          displayName: az cloud list
+        - name: List-Profiles
+          uid: az_cloud_list_profiles
+          displayName: az cloud list-profiles
+        - name: Registra
+          uid: az_cloud_register
+          displayName: az cloud register
+        - name: Configurazione
+          uid: az_cloud_set
+          displayName: az cloud set
+        - name: Mostra
+          uid: az_cloud_show
+          displayName: az cloud show
+        - name: 'Unregister '
+          uid: az_cloud_unregister
+          displayName: az cloud unregister
+        - name: Aggiornare
+          uid: az_cloud_update
+          displayName: az cloud update
+    - name: Componenti
+      uid: az_component
+      displayName: az component
+      items:
+        - name: Elenco
+          uid: az_component_list
+          displayName: az component list
+        - name: List-Available
+          uid: az_component_list_available
+          displayName: az component list-available
+        - name: Rimuovere
+          uid: az_component_remove
+          displayName: az component remove
+        - name: Aggiornare
+          uid: az_component_update
+          displayName: az component update
+    - name: Insieme di credenziali delle chiavi
+      uid: az_keyvault
+      displayName: az keyvault
+      items:
+        - name: Create
+          uid: az_keyvault_create
+          displayName: az keyvault create
+        - name: Elimina
+          uid: az_keyvault_delete
+          displayName: az keyvault delete
+        - name: Delete-Policy
+          uid: az_keyvault_delete_policy
+          displayName: az keyvault delete-policy
+        - name: Elenco
+          uid: az_keyvault_list
+          displayName: az keyvault list
+        - name: List-Deleted
+          uid: az_keyvault_list_deleted
+          displayName: az keyvault list-deleted
+        - name: Ripulisci
+          uid: az_keyvault_purge
+          displayName: az keyvault purge
+        - name: Recupera
+          uid: az_keyvault_recover
+          displayName: az keyvault recover
+        - name: Set-Policy
+          uid: az_keyvault_set_policy
+          displayName: az keyvault set-policy
+        - name: Mostra
+          uid: az_keyvault_show
+          displayName: az keyvault show
+        - name: Aggiornare
+          uid: az_keyvault_update
+          displayName: az keyvault update
+        - name: Certificati
+          uid: az_keyvault_certificate
+          displayName: az keyvault certificate
+          items:
+            - name: Create
+              uid: az_keyvault_certificate_create
+              displayName: az keyvault certificate create
+            - name: Elimina
+              uid: az_keyvault_certificate_delete
+              displayName: az keyvault certificate delete
+            - name: Scaricare
+              uid: az_keyvault_certificate_download
+              displayName: az keyvault certificate download
+            - name: Get-Default-Policy
+              uid: az_keyvault_certificate_get_default_policy
+              displayName: az keyvault certificate get-default-policy
+            - name: Importa
+              uid: az_keyvault_certificate_import
+              displayName: az keyvault certificate import
+            - name: Elenco
+              uid: az_keyvault_certificate_list
+              displayName: az keyvault certificate list
+            - name: List-Deleted
+              uid: az_keyvault_certificate_list_deleted
+              displayName: az keyvault certificate list-deleted
+            - name: List-Versions
+              uid: az_keyvault_certificate_list_versions
+              displayName: az keyvault certificate list-versions
+            - name: Ripulisci
+              uid: az_keyvault_certificate_purge
+              displayName: az keyvault certificate purge
+            - name: Recupera
+              uid: az_keyvault_certificate_recover
+              displayName: az keyvault certificate recover
+            - name: Set-Attributes
+              uid: az_keyvault_certificate_set_attributes
+              displayName: az keyvault certificate set-attributes
+            - name: Mostra
+              uid: az_keyvault_certificate_show
+              displayName: az keyvault certificate show
+            - name: Show-Deleted
+              uid: az_keyvault_certificate_show_deleted
+              displayName: az keyvault certificate show-deleted
+            - name: Contatti
+              uid: az_keyvault_certificate_contact
+              displayName: az keyvault certificate contact
+              items:
+                - name: Add
+                  uid: az_keyvault_certificate_contact_add
+                  displayName: az keyvault certificate contact add
+                - name: Elimina
+                  uid: az_keyvault_certificate_contact_delete
+                  displayName: az keyvault certificate contact delete
+                - name: Elenco
+                  uid: az_keyvault_certificate_contact_list
+                  displayName: az keyvault certificate contact list
+            - name: Autorità di certificazione
+              uid: az_keyvault_certificate_issuer
+              displayName: az keyvault certificate issuer
+              items:
+                - name: Create
+                  uid: az_keyvault_certificate_issuer_create
+                  displayName: az keyvault certificate issuer create
+                - name: Elimina
+                  uid: az_keyvault_certificate_issuer_delete
+                  displayName: az keyvault certificate issuer delete
+                - name: Elenco
+                  uid: az_keyvault_certificate_issuer_list
+                  displayName: az keyvault certificate issuer list
+                - name: Mostra
+                  uid: az_keyvault_certificate_issuer_show
+                  displayName: az keyvault certificate issuer show
+                - name: Aggiornare
+                  uid: az_keyvault_certificate_issuer_update
+                  displayName: az keyvault certificate issuer update
+                - name: Amministrazione
+                  uid: az_keyvault_certificate_issuer_admin
+                  displayName: az keyvault certificate issuer admin
+                  items:
+                    - name: Add
+                      uid: az_keyvault_certificate_issuer_admin_add
+                      displayName: az keyvault certificate issuer admin add
+                    - name: Elimina
+                      uid: az_keyvault_certificate_issuer_admin_delete
+                      displayName: az keyvault certificate issuer admin delete
+                    - name: Elenco
+                      uid: az_keyvault_certificate_issuer_admin_list
+                      displayName: az keyvault certificate issuer admin list
+            - name: In sospeso
+              uid: az_keyvault_certificate_pending
+              displayName: az keyvault certificate pending
+              items:
+                - name: Elimina
+                  uid: az_keyvault_certificate_pending_delete
+                  displayName: az keyvault certificate pending delete
+                - name: Unione
+                  uid: az_keyvault_certificate_pending_merge
+                  displayName: az keyvault certificate pending merge
+                - name: Mostra
+                  uid: az_keyvault_certificate_pending_show
+                  displayName: az keyvault certificate pending show
+        - name: Chiavi
+          uid: az_keyvault_key
+          displayName: az keyvault key
+          items:
+            - name: Backup
+              uid: az_keyvault_key_backup
+              displayName: az keyvault key backup
+            - name: Create
+              uid: az_keyvault_key_create
+              displayName: az keyvault key create
+            - name: Elimina
+              uid: az_keyvault_key_delete
+              displayName: az keyvault key delete
+            - name: Importa
+              uid: az_keyvault_key_import
+              displayName: az keyvault key import
+            - name: Elenco
+              uid: az_keyvault_key_list
+              displayName: az keyvault key list
+            - name: List-Deleted
+              uid: az_keyvault_key_list_deleted
+              displayName: az keyvault key list-deleted
+            - name: List-Versions
+              uid: az_keyvault_key_list_versions
+              displayName: az keyvault key list-versions
+            - name: Ripulisci
+              uid: az_keyvault_key_purge
+              displayName: az keyvault key purge
+            - name: Recupera
+              uid: az_keyvault_key_recover
+              displayName: az keyvault key recover
+            - name: Ripristino
+              uid: az_keyvault_key_restore
+              displayName: az keyvault key restore
+            - name: Set-Attributes
+              uid: az_keyvault_key_set_attributes
+              displayName: az keyvault key set-attributes
+            - name: Mostra
+              uid: az_keyvault_key_show
+              displayName: az keyvault key show
+            - name: Show-Deleted
+              uid: az_keyvault_key_show_deleted
+              displayName: az keyvault key show-deleted
+        - name: Segreti
+          uid: az_keyvault_secret
+          displayName: az keyvault secret
+          items:
+            - name: Backup
+              uid: az_keyvault_secret_backup
+              displayName: az keyvault secret backup
+            - name: Elimina
+              uid: az_keyvault_secret_delete
+              displayName: az keyvault secret delete
+            - name: Scaricare
+              uid: az_keyvault_secret_download
+              displayName: az keyvault secret download
+            - name: Elenco
+              uid: az_keyvault_secret_list
+              displayName: az keyvault secret list
+            - name: List-Deleted
+              uid: az_keyvault_secret_list_deleted
+              displayName: az keyvault secret list-deleted
+            - name: List-Versions
+              uid: az_keyvault_secret_list_versions
+              displayName: az keyvault secret list-versions
+            - name: Ripulisci
+              uid: az_keyvault_secret_purge
+              displayName: az keyvault secret purge
+            - name: Recupera
+              uid: az_keyvault_secret_recover
+              displayName: az keyvault secret recover
+            - name: Ripristino
+              uid: az_keyvault_secret_restore
+              displayName: az keyvault secret restore
+            - name: Configurazione
+              uid: az_keyvault_secret_set
+              displayName: az keyvault secret set
+            - name: Set-Attributes
+              uid: az_keyvault_secret_set_attributes
+              displayName: az keyvault secret set-attributes
+            - name: Mostra
+              uid: az_keyvault_secret_show
+              displayName: az keyvault secret show
+            - name: Show-Deleted
+              uid: az_keyvault_secret_show_deleted
+              displayName: az keyvault secret show-deleted
+    - name: Blocchi
+      uid: az_lock
+      displayName: az lock
+      items:
+        - name: Create
+          uid: az_lock_create
+          displayName: az lock create
+        - name: Elimina
+          uid: az_lock_delete
+          displayName: az lock delete
+        - name: Elenco
+          uid: az_lock_list
+          displayName: az lock list
+        - name: Mostra
+          uid: az_lock_show
+          displayName: az lock show
+        - name: Aggiornare
+          uid: az_lock_update
+          displayName: az lock update
+    - name: Rete
+      uid: az_network
+      displayName: az network
+      items:
+        - name: List-Usages
+          uid: az_network_list_usages
+          displayName: az network list-usages
+        - name: gateway applicazione
+          uid: az_network_application_gateway
+          displayName: az network application-gateway
+          items:
+            - name: Create
+              uid: az_network_application_gateway_create
+              displayName: az network application-gateway create
+            - name: Elimina
+              uid: az_network_application_gateway_delete
+              displayName: az network application-gateway delete
+            - name: Elenco
+              uid: az_network_application_gateway_list
+              displayName: az network application-gateway list
+            - name: Mostra
+              uid: az_network_application_gateway_show
+              displayName: az network application-gateway show
+            - name: Inizia
+              uid: az_network_application_gateway_start
+              displayName: az network application-gateway start
+            - name: Arresto
+              uid: az_network_application_gateway_stop
+              displayName: az network application-gateway stop
+            - name: Aggiornare
+              uid: az_network_application_gateway_update
+              displayName: az network application-gateway update
+            - name: Attesa
+              uid: az_network_application_gateway_wait
+              displayName: az network application-gateway wait
+            - name: Pool di indirizzi
+              uid: az_network_application_gateway_address_pool
+              displayName: az network application-gateway address-pool
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_address_pool_create
+                  displayName: az network application-gateway address-pool create
+                - name: Elimina
+                  uid: az_network_application_gateway_address_pool_delete
+                  displayName: az network application-gateway address-pool delete
+                - name: Elenco
+                  uid: az_network_application_gateway_address_pool_list
+                  displayName: az network application-gateway address-pool list
+                - name: Mostra
+                  uid: az_network_application_gateway_address_pool_show
+                  displayName: az network application-gateway address-pool show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_address_pool_update
+                  displayName: az network application-gateway address-pool update
+            - name: Certificati di autorizzazione
+              uid: az_network_application_gateway_auth_cert
+              displayName: az network application-gateway auth-cert
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_auth_cert_create
+                  displayName: az network application-gateway auth-cert create
+                - name: Elimina
+                  uid: az_network_application_gateway_auth_cert_delete
+                  displayName: az network application-gateway auth-cert delete
+                - name: Elenco
+                  uid: az_network_application_gateway_auth_cert_list
+                  displayName: az network application-gateway auth-cert list
+                - name: Mostra
+                  uid: az_network_application_gateway_auth_cert_show
+                  displayName: az network application-gateway auth-cert show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_auth_cert_update
+                  displayName: az network application-gateway auth-cert update
+            - name: Indirizzi IP front-end
+              uid: az_network_application_gateway_frontend_ip
+              displayName: az network application-gateway frontend-ip
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_frontend_ip_create
+                  displayName: az network application-gateway frontend-ip create
+                - name: Elimina
+                  uid: az_network_application_gateway_frontend_ip_delete
+                  displayName: az network application-gateway frontend-ip delete
+                - name: Elenco
+                  uid: az_network_application_gateway_frontend_ip_list
+                  displayName: az network application-gateway frontend-ip list
+                - name: Mostra
+                  uid: az_network_application_gateway_frontend_ip_show
+                  displayName: az network application-gateway frontend-ip show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_frontend_ip_update
+                  displayName: az network application-gateway frontend-ip update
+            - name: Porte front-end
+              uid: az_network_application_gateway_frontend_port
+              displayName: az network application-gateway frontend-port
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_frontend_port_create
+                  displayName: az network application-gateway frontend-port create
+                - name: Elimina
+                  uid: az_network_application_gateway_frontend_port_delete
+                  displayName: az network application-gateway frontend-port delete
+                - name: Elenco
+                  uid: az_network_application_gateway_frontend_port_list
+                  displayName: az network application-gateway frontend-port list
+                - name: Mostra
+                  uid: az_network_application_gateway_frontend_port_show
+                  displayName: az network application-gateway frontend-port show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_frontend_port_update
+                  displayName: az network application-gateway frontend-port update
+            - name: Listener HTTP
+              uid: az_network_application_gateway_http_listener
+              displayName: az network application-gateway http-listener
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_http_listener_create
+                  displayName: az network application-gateway http-listener create
+                - name: Elimina
+                  uid: az_network_application_gateway_http_listener_delete
+                  displayName: az network application-gateway http-listener delete
+                - name: Elenco
+                  uid: az_network_application_gateway_http_listener_list
+                  displayName: az network application-gateway http-listener list
+                - name: Mostra
+                  uid: az_network_application_gateway_http_listener_show
+                  displayName: az network application-gateway http-listener show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_http_listener_update
+                  displayName: az network application-gateway http-listener update
+            - name: Impostazioni HTTP
+              uid: az_network_application_gateway_http_settings
+              displayName: az network application-gateway http-settings
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_http_settings_create
+                  displayName: az network application-gateway http-settings create
+                - name: Elimina
+                  uid: az_network_application_gateway_http_settings_delete
+                  displayName: az network application-gateway http-settings delete
+                - name: Elenco
+                  uid: az_network_application_gateway_http_settings_list
+                  displayName: az network application-gateway http-settings list
+                - name: Mostra
+                  uid: az_network_application_gateway_http_settings_show
+                  displayName: az network application-gateway http-settings show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_http_settings_update
+                  displayName: az network application-gateway http-settings update
+            - name: Probe
+              uid: az_network_application_gateway_probe
+              displayName: az network application-gateway probe
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_probe_create
+                  displayName: az network application-gateway probe create
+                - name: Elimina
+                  uid: az_network_application_gateway_probe_delete
+                  displayName: az network application-gateway probe delete
+                - name: Elenco
+                  uid: az_network_application_gateway_probe_list
+                  displayName: az network application-gateway probe list
+                - name: Mostra
+                  uid: az_network_application_gateway_probe_show
+                  displayName: az network application-gateway probe show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_probe_update
+                  displayName: az network application-gateway probe update
+            - name: Regole di routing
+              uid: az_network_application_gateway_rule
+              displayName: az network application-gateway rule
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_rule_create
+                  displayName: az network application-gateway rule create
+                - name: Elimina
+                  uid: az_network_application_gateway_rule_delete
+                  displayName: az network application-gateway rule delete
+                - name: Elenco
+                  uid: az_network_application_gateway_rule_list
+                  displayName: az network application-gateway rule list
+                - name: Mostra
+                  uid: az_network_application_gateway_rule_show
+                  displayName: az network application-gateway rule show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_rule_update
+                  displayName: az network application-gateway rule update
+            - name: Certificati SSL
+              uid: az_network_application_gateway_ssl_cert
+              displayName: az network application-gateway ssl-cert
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_ssl_cert_create
+                  displayName: az network application-gateway ssl-cert create
+                - name: Elimina
+                  uid: az_network_application_gateway_ssl_cert_delete
+                  displayName: az network application-gateway ssl-cert delete
+                - name: Elenco
+                  uid: az_network_application_gateway_ssl_cert_list
+                  displayName: az network application-gateway ssl-cert list
+                - name: Mostra
+                  uid: az_network_application_gateway_ssl_cert_show
+                  displayName: az network application-gateway ssl-cert show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_ssl_cert_update
+                  displayName: az network application-gateway ssl-cert update
+            - name: Criteri SSL
+              uid: az_network_application_gateway_ssl_policy
+              displayName: az network application-gateway ssl-policy
+              items:
+                - name: Configurazione
+                  uid: az_network_application_gateway_ssl_policy_set
+                  displayName: az network application-gateway ssl-policy set
+                - name: Mostra
+                  uid: az_network_application_gateway_ssl_policy_show
+                  displayName: az network application-gateway ssl-policy show
+            - name: Mappe percorso URL
+              uid: az_network_application_gateway_url_path_map
+              displayName: az network application-gateway url-path-map
+              items:
+                - name: Create
+                  uid: az_network_application_gateway_url_path_map_create
+                  displayName: az network application-gateway url-path-map create
+                - name: Elimina
+                  uid: az_network_application_gateway_url_path_map_delete
+                  displayName: az network application-gateway url-path-map delete
+                - name: Elenco
+                  uid: az_network_application_gateway_url_path_map_list
+                  displayName: az network application-gateway url-path-map list
+                - name: Mostra
+                  uid: az_network_application_gateway_url_path_map_show
+                  displayName: az network application-gateway url-path-map show
+                - name: Aggiornare
+                  uid: az_network_application_gateway_url_path_map_update
+                  displayName: az network application-gateway url-path-map update
+                - name: Regole
+                  uid: az_network_application_gateway_url_path_map_rule
+                  displayName: az network application-gateway url-path-map rule
+                  items:
+                    - name: Create
+                      uid: az_network_application_gateway_url_path_map_rule_create
+                      displayName: az network application-gateway url-path-map rule create
+                    - name: Elimina
+                      uid: az_network_application_gateway_url_path_map_rule_delete
+                      displayName: az network application-gateway url-path-map rule delete
+            - name: Impostazioni firewall applicazione Web
+              uid: az_network_application_gateway_waf_config
+              displayName: az network application-gateway waf-config
+              items:
+                - name: Configurazione
+                  uid: az_network_application_gateway_waf_config_set
+                  displayName: az network application-gateway waf-config set
+                - name: Mostra
+                  uid: az_network_application_gateway_waf_config_show
+                  displayName: az network application-gateway waf-config show
+        - name: DNS
+          uid: az_network_dns
+          displayName: az network dns
+          items:
+            - name: Set di record
+              uid: az_network_dns_record_set
+              displayName: az network dns record-set
+              items:
+                - name: Elenco
+                  uid: az_network_dns_record_set_list
+                  displayName: az network dns record-set list
+                - name: 'Una '
+                  uid: az_network_dns_record_set_a
+                  displayName: az network dns record-set a
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_a_add_record
+                      displayName: az network dns record-set a add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_a_create
+                      displayName: az network dns record-set a create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_a_delete
+                      displayName: az network dns record-set a delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_a_list
+                      displayName: az network dns record-set a list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_a_remove_record
+                      displayName: az network dns record-set a remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_a_show
+                      displayName: az network dns record-set a show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_a_update
+                      displayName: az network dns record-set a update
+                - name: AAAA
+                  uid: az_network_dns_record_set_aaaa
+                  displayName: az network dns record-set aaaa
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_aaaa_add_record
+                      displayName: az network dns record-set aaaa add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_aaaa_create
+                      displayName: az network dns record-set aaaa create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_aaaa_delete
+                      displayName: az network dns record-set aaaa delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_aaaa_list
+                      displayName: az network dns record-set aaaa list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_aaaa_remove_record
+                      displayName: az network dns record-set aaaa remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_aaaa_show
+                      displayName: az network dns record-set aaaa show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_aaaa_update
+                      displayName: az network dns record-set aaaa update
+                - name: CNAME
+                  uid: az_network_dns_record_set_cname
+                  displayName: az network dns record-set cname
+                  items:
+                    - name: Create
+                      uid: az_network_dns_record_set_cname_create
+                      displayName: az network dns record-set cname create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_cname_delete
+                      displayName: az network dns record-set cname delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_cname_list
+                      displayName: az network dns record-set cname list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_cname_remove_record
+                      displayName: az network dns record-set cname remove-record
+                    - name: Set-Record
+                      uid: az_network_dns_record_set_cname_set_record
+                      displayName: az network dns record-set cname set-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_cname_show
+                      displayName: az network dns record-set cname show
+                - name: MX (Posta)
+                  uid: az_network_dns_record_set_mx
+                  displayName: az network dns record-set mx
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_mx_add_record
+                      displayName: az network dns record-set mx add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_mx_create
+                      displayName: az network dns record-set mx create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_mx_delete
+                      displayName: az network dns record-set mx delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_mx_list
+                      displayName: az network dns record-set mx list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_mx_remove_record
+                      displayName: az network dns record-set mx remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_mx_show
+                      displayName: az network dns record-set mx show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_mx_update
+                      displayName: az network dns record-set mx update
+                - name: NS (server dei nomi)
+                  uid: az_network_dns_record_set_ns
+                  displayName: az network dns record-set ns
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_ns_add_record
+                      displayName: az network dns record-set ns add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_ns_create
+                      displayName: az network dns record-set ns create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_ns_delete
+                      displayName: az network dns record-set ns delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_ns_list
+                      displayName: az network dns record-set ns list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_ns_remove_record
+                      displayName: az network dns record-set ns remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_ns_show
+                      displayName: az network dns record-set ns show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_ns_update
+                      displayName: az network dns record-set ns update
+                - name: PTR (puntatore)
+                  uid: az_network_dns_record_set_ptr
+                  displayName: az network dns record-set ptr
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_ptr_add_record
+                      displayName: az network dns record-set ptr add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_ptr_create
+                      displayName: az network dns record-set ptr create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_ptr_delete
+                      displayName: az network dns record-set ptr delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_ptr_list
+                      displayName: az network dns record-set ptr list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_ptr_remove_record
+                      displayName: az network dns record-set ptr remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_ptr_show
+                      displayName: az network dns record-set ptr show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_ptr_update
+                      displayName: az network dns record-set ptr update
+                - name: SRV
+                  uid: az_network_dns_record_set_srv
+                  displayName: az network dns record-set srv
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_srv_add_record
+                      displayName: az network dns record-set srv add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_srv_create
+                      displayName: az network dns record-set srv create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_srv_delete
+                      displayName: az network dns record-set srv delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_srv_list
+                      displayName: az network dns record-set srv list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_srv_remove_record
+                      displayName: az network dns record-set srv remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_srv_show
+                      displayName: az network dns record-set srv show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_srv_update
+                      displayName: az network dns record-set srv update
+                - name: SOA
+                  uid: az_network_dns_record_set_soa
+                  displayName: az network dns record-set soa
+                  items:
+                    - name: Mostra
+                      uid: az_network_dns_record_set_soa_show
+                      displayName: az network dns record-set soa show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_soa_update
+                      displayName: az network dns record-set soa update
+                - name: TXT
+                  uid: az_network_dns_record_set_txt
+                  displayName: az network dns record-set txt
+                  items:
+                    - name: Add-Record
+                      uid: az_network_dns_record_set_txt_add_record
+                      displayName: az network dns record-set txt add-record
+                    - name: Create
+                      uid: az_network_dns_record_set_txt_create
+                      displayName: az network dns record-set txt create
+                    - name: Elimina
+                      uid: az_network_dns_record_set_txt_delete
+                      displayName: az network dns record-set txt delete
+                    - name: Elenco
+                      uid: az_network_dns_record_set_txt_list
+                      displayName: az network dns record-set txt list
+                    - name: Remove-Record
+                      uid: az_network_dns_record_set_txt_remove_record
+                      displayName: az network dns record-set txt remove-record
+                    - name: Mostra
+                      uid: az_network_dns_record_set_txt_show
+                      displayName: az network dns record-set txt show
+                    - name: Aggiornare
+                      uid: az_network_dns_record_set_txt_update
+                      displayName: az network dns record-set txt update
+            - name: Zone
+              uid: az_network_dns_zone
+              displayName: az network dns zone
+              items:
+                - name: Create
+                  uid: az_network_dns_zone_create
+                  displayName: az network dns zone create
+                - name: Elimina
+                  uid: az_network_dns_zone_delete
+                  displayName: az network dns zone delete
+                - name: Esporta
+                  uid: az_network_dns_zone_export
+                  displayName: az network dns zone export
+                - name: Importa
+                  uid: az_network_dns_zone_import
+                  displayName: az network dns zone import
+                - name: Elenco
+                  uid: az_network_dns_zone_list
+                  displayName: az network dns zone list
+                - name: Mostra
+                  uid: az_network_dns_zone_show
+                  displayName: az network dns zone show
+                - name: Aggiornare
+                  uid: az_network_dns_zone_update
+                  displayName: az network dns zone update
+        - name: Express Route
+          uid: az_network_express_route
+          displayName: az network express-route
+          items:
+            - name: Autenticazione del circuito
+              uid: az_network_express_route_auth
+              displayName: az network express-route auth
+              items:
+                - name: Create
+                  uid: az_network_express_route_auth_create
+                  displayName: az network express-route auth create
+                - name: Elimina
+                  uid: az_network_express_route_auth_delete
+                  displayName: az network express-route auth delete
+                - name: Elenco
+                  uid: az_network_express_route_auth_list
+                  displayName: az network express-route auth list
+                - name: Mostra
+                  uid: az_network_express_route_auth_show
+                  displayName: az network express-route auth show
+            - name: Peering
+              uid: az_network_express_route_peering
+              displayName: az network express-route peering
+              items:
+                - name: Create
+                  uid: az_network_express_route_peering_create
+                  displayName: az network express-route peering create
+                - name: Elimina
+                  uid: az_network_express_route_peering_delete
+                  displayName: az network express-route peering delete
+                - name: Elenco
+                  uid: az_network_express_route_peering_list
+                  displayName: az network express-route peering list
+                - name: Mostra
+                  uid: az_network_express_route_peering_show
+                  displayName: az network express-route peering show
+                - name: Aggiornare
+                  uid: az_network_express_route_peering_update
+                  displayName: az network express-route peering update
+        - name: Gateway locali
+          uid: az_network_local_gateway
+          displayName: az network local-gateway
+          items:
+            - name: Create
+              uid: az_network_local_gateway_create
+              displayName: az network local-gateway create
+            - name: Elimina
+              uid: az_network_local_gateway_delete
+              displayName: az network local-gateway delete
+            - name: Elenco
+              uid: az_network_local_gateway_list
+              displayName: az network local-gateway list
+            - name: Mostra
+              uid: az_network_local_gateway_show
+              displayName: az network local-gateway show
+            - name: Aggiornare
+              uid: az_network_local_gateway_update
+              displayName: az network local-gateway update
+            - name: Attesa
+              uid: az_network_local_gateway_wait
+              displayName: az network local-gateway wait
+        - name: Interfacce di rete
+          uid: az_network_nic
+          displayName: az network nic
+          items:
+            - name: Create
+              uid: az_network_nic_create
+              displayName: az network nic create
+            - name: Elimina
+              uid: az_network_nic_delete
+              displayName: az network nic delete
+            - name: Elenco
+              uid: az_network_nic_list
+              displayName: az network nic list
+            - name: Mostra
+              uid: az_network_nic_show
+              displayName: az network nic show
+            - name: Aggiornare
+              uid: az_network_nic_update
+              displayName: az network nic update
+            - name: Configurazioni IP NIC
+              uid: az_network_nic_ip_config
+              displayName: az network nic ip-config
+              items:
+                - name: Create
+                  uid: az_network_nic_ip_config_create
+                  displayName: az network nic ip-config create
+                - name: Elimina
+                  uid: az_network_nic_ip_config_delete
+                  displayName: az network nic ip-config delete
+                - name: Elenco
+                  uid: az_network_nic_ip_config_list
+                  displayName: az network nic ip-config list
+                - name: Mostra
+                  uid: az_network_nic_ip_config_show
+                  displayName: az network nic ip-config show
+                - name: Aggiornare
+                  uid: az_network_nic_ip_config_update
+                  displayName: az network nic ip-config update
+                - name: Pool di indirizzi
+                  uid: az_network_nic_ip_config_address_pool
+                  displayName: az network nic ip-config address-pool
+                  items:
+                    - name: Add
+                      uid: az_network_nic_ip_config_address_pool_add
+                      displayName: az network nic ip-config address-pool add
+                    - name: Rimuovere
+                      uid: az_network_nic_ip_config_address_pool_remove
+                      displayName: az network nic ip-config address-pool remove
+                - name: Regole NAT in ingresso
+                  uid: az_network_nic_ip_config_inbound_nat_rule
+                  displayName: az network nic ip-config inbound-nat-rule
+                  items:
+                    - name: Add
+                      uid: az_network_nic_ip_config_inbound_nat_rule_add
+                      displayName: az network nic ip-config inbound-nat-rule add
+                    - name: Rimuovere
+                      uid: az_network_nic_ip_config_inbound_nat_rule_remove
+                      displayName: az network nic ip-config inbound-nat-rule remove
+        - name: Servizio di bilanciamento del carico
+          uid: az_network_lb
+          displayName: az network lb
+          items:
+            - name: Create
+              uid: az_network_lb_create
+              displayName: az network lb create
+            - name: Elimina
+              uid: az_network_lb_delete
+              displayName: az network lb delete
+            - name: Elenco
+              uid: az_network_lb_list
+              displayName: az network lb list
+            - name: Mostra
+              uid: az_network_lb_show
+              displayName: az network lb show
+            - name: Aggiornare
+              uid: az_network_lb_update
+              displayName: az network lb update
+            - name: Pool di indirizzi back-end
+              uid: az_network_lb_address_pool
+              displayName: az network lb address-pool
+              items:
+                - name: Create
+                  uid: az_network_lb_address_pool_create
+                  displayName: az network lb address-pool create
+                - name: Elimina
+                  uid: az_network_lb_address_pool_delete
+                  displayName: az network lb address-pool delete
+                - name: Elenco
+                  uid: az_network_lb_address_pool_list
+                  displayName: az network lb address-pool list
+                - name: Mostra
+                  uid: az_network_lb_address_pool_show
+                  displayName: az network lb address-pool show
+            - name: Indirizzi IP front-end
+              uid: az_network_lb_frontend_ip
+              displayName: az network lb frontend-ip
+              items:
+                - name: Create
+                  uid: az_network_lb_frontend_ip_create
+                  displayName: az network lb frontend-ip create
+                - name: Elimina
+                  uid: az_network_lb_frontend_ip_delete
+                  displayName: az network lb frontend-ip delete
+                - name: Elenco
+                  uid: az_network_lb_frontend_ip_list
+                  displayName: az network lb frontend-ip list
+                - name: Mostra
+                  uid: az_network_lb_frontend_ip_show
+                  displayName: az network lb frontend-ip show
+                - name: Aggiornare
+                  uid: az_network_lb_frontend_ip_update
+                  displayName: az network lb frontend-ip update
+            - name: Pool di indirizzi NAT in ingresso
+              uid: az_network_lb_inbound_nat_pool
+              displayName: az network lb inbound-nat-pool
+              items:
+                - name: Create
+                  uid: az_network_lb_inbound_nat_pool_create
+                  displayName: az network lb inbound-nat-pool create
+                - name: Elimina
+                  uid: az_network_lb_inbound_nat_pool_delete
+                  displayName: az network lb inbound-nat-pool delete
+                - name: Elenco
+                  uid: az_network_lb_inbound_nat_pool_list
+                  displayName: az network lb inbound-nat-pool list
+                - name: Mostra
+                  uid: az_network_lb_inbound_nat_pool_show
+                  displayName: az network lb inbound-nat-pool show
+                - name: Aggiornare
+                  uid: az_network_lb_inbound_nat_pool_update
+                  displayName: az network lb inbound-nat-pool update
+            - name: Regole di indirizzi NAT in ingresso
+              uid: az_network_lb_inbound_nat_rule
+              displayName: az network lb inbound-nat-rule
+              items:
+                - name: Create
+                  uid: az_network_lb_inbound_nat_rule_create
+                  displayName: az network lb inbound-nat-rule create
+                - name: Elimina
+                  uid: az_network_lb_inbound_nat_rule_delete
+                  displayName: az network lb inbound-nat-rule delete
+                - name: Elenco
+                  uid: az_network_lb_inbound_nat_rule_list
+                  displayName: az network lb inbound-nat-rule list
+                - name: Mostra
+                  uid: az_network_lb_inbound_nat_rule_show
+                  displayName: az network lb inbound-nat-rule show
+                - name: Aggiornare
+                  uid: az_network_lb_inbound_nat_rule_update
+                  displayName: az network lb inbound-nat-rule update
+            - name: Probe
+              uid: az_network_lb_probe
+              displayName: az network lb probe
+              items:
+                - name: Create
+                  uid: az_network_lb_probe_create
+                  displayName: az network lb probe create
+                - name: Elimina
+                  uid: az_network_lb_probe_delete
+                  displayName: az network lb probe delete
+                - name: Elenco
+                  uid: az_network_lb_probe_list
+                  displayName: az network lb probe list
+                - name: Mostra
+                  uid: az_network_lb_probe_show
+                  displayName: az network lb probe show
+                - name: Aggiornare
+                  uid: az_network_lb_probe_update
+                  displayName: az network lb probe update
+            - name: Regole
+              uid: az_network_lb_rule
+              displayName: az network lb rule
+              items:
+                - name: Create
+                  uid: az_network_lb_rule_create
+                  displayName: az network lb rule create
+                - name: Elimina
+                  uid: az_network_lb_rule_delete
+                  displayName: az network lb rule delete
+                - name: Elenco
+                  uid: az_network_lb_rule_list
+                  displayName: az network lb rule list
+                - name: Mostra
+                  uid: az_network_lb_rule_show
+                  displayName: az network lb rule show
+                - name: Aggiornare
+                  uid: az_network_lb_rule_update
+                  displayName: az network lb rule update
+        - name: Gruppi di sicurezza di rete
+          uid: az_network_nsg
+          displayName: az network nsg
+          items:
+            - name: Create
+              uid: az_network_nsg_create
+              displayName: az network nsg create
+            - name: Elimina
+              uid: az_network_nsg_delete
+              displayName: az network nsg delete
+            - name: Elenco
+              uid: az_network_nsg_list
+              displayName: az network nsg list
+            - name: Mostra
+              uid: az_network_nsg_show
+              displayName: az network nsg show
+            - name: Aggiornare
+              uid: az_network_nsg_update
+              displayName: az network nsg update
+            - name: Regole
+              uid: az_network_nsg_rule
+              displayName: az network nsg rule
+              items:
+                - name: Create
+                  uid: az_network_nsg_rule_create
+                  displayName: az network nsg rule create
+                - name: Elimina
+                  uid: az_network_nsg_rule_delete
+                  displayName: az network nsg rule delete
+                - name: Elenco
+                  uid: az_network_nsg_rule_list
+                  displayName: az network nsg rule list
+                - name: Mostra
+                  uid: az_network_nsg_rule_show
+                  displayName: az network nsg rule show
+                - name: Aggiornare
+                  uid: az_network_nsg_rule_update
+                  displayName: az network nsg rule update
+        - name: Indirizzi IP pubblici
+          uid: az_network_public_ip
+          displayName: az network public-ip
+          items:
+            - name: Create
+              uid: az_network_public_ip_create
+              displayName: az network public-ip create
+            - name: Elimina
+              uid: az_network_public_ip_delete
+              displayName: az network public-ip delete
+            - name: Elenco
+              uid: az_network_public_ip_list
+              displayName: az network public-ip list
+            - name: Mostra
+              uid: az_network_public_ip_show
+              displayName: az network public-ip show
+            - name: Aggiornare
+              uid: az_network_public_ip_update
+              displayName: az network public-ip update
+        - name: Tabelle di route
+          uid: az_network_route_table
+          displayName: az network route-table
+          items:
+            - name: Create
+              uid: az_network_route_table_create
+              displayName: az network route-table create
+            - name: Elimina
+              uid: az_network_route_table_delete
+              displayName: az network route-table delete
+            - name: Elenco
+              uid: az_network_route_table_list
+              displayName: az network route-table list
+            - name: Mostra
+              uid: az_network_route_table_show
+              displayName: az network route-table show
+            - name: Aggiornare
+              uid: az_network_route_table_update
+              displayName: az network route-table update
+            - name: Route
+              uid: az_network_route_table_route
+              displayName: az network route-table route
+              items:
+                - name: Create
+                  uid: az_network_route_table_route_create
+                  displayName: az network route-table route create
+                - name: Elimina
+                  uid: az_network_route_table_route_delete
+                  displayName: az network route-table route delete
+                - name: Elenco
+                  uid: az_network_route_table_route_list
+                  displayName: az network route-table route list
+                - name: Mostra
+                  uid: az_network_route_table_route_show
+                  displayName: az network route-table route show
+                - name: Aggiornare
+                  uid: az_network_route_table_route_update
+                  displayName: az network route-table route update
+        - name: Gestione traffico
+          uid: az_network_traffic_manager
+          displayName: az network traffic-manager
+          items:
+            - name: Endpoint
+              uid: az_network_traffic_manager_endpoint
+              displayName: az network traffic-manager endpoint
+              items:
+                - name: Create
+                  uid: az_network_traffic_manager_endpoint_create
+                  displayName: az network traffic-manager endpoint create
+                - name: Elimina
+                  uid: az_network_traffic_manager_endpoint_delete
+                  displayName: az network traffic-manager endpoint delete
+                - name: Elenco
+                  uid: az_network_traffic_manager_endpoint_list
+                  displayName: az network traffic-manager endpoint list
+                - name: Mostra
+                  uid: az_network_traffic_manager_endpoint_show
+                  displayName: az network traffic-manager endpoint show
+                - name: Show-Geographic-Hierarchy
+                  uid: az_network_traffic_manager_endpoint_show_geographic_hierarchy
+                  displayName: az network traffic-manager endpoint show-geographic-hierarchy
+                - name: Aggiornare
+                  uid: az_network_traffic_manager_endpoint_update
+                  displayName: az network traffic-manager endpoint update
+            - name: Profili
+              uid: az_network_traffic_manager_profile
+              displayName: az network traffic-manager profile
+              items:
+                - name: Check-Dns
+                  uid: az_network_traffic_manager_profile_check_dns
+                  displayName: az network traffic-manager profile check-dns
+                - name: Create
+                  uid: az_network_traffic_manager_profile_create
+                  displayName: az network traffic-manager profile create
+                - name: Elimina
+                  uid: az_network_traffic_manager_profile_delete
+                  displayName: az network traffic-manager profile delete
+                - name: Elenco
+                  uid: az_network_traffic_manager_profile_list
+                  displayName: az network traffic-manager profile list
+                - name: Mostra
+                  uid: az_network_traffic_manager_profile_show
+                  displayName: az network traffic-manager profile show
+                - name: Aggiornare
+                  uid: az_network_traffic_manager_profile_update
+                  displayName: az network traffic-manager profile update
+        - name: Connessioni VPN
+          uid: az_network_vpn_connection
+          displayName: az network vpn-connection
+          items:
+            - name: Create
+              uid: az_network_vpn_connection_create
+              displayName: az network vpn-connection create
+            - name: Elimina
+              uid: az_network_vpn_connection_delete
+              displayName: az network vpn-connection delete
+            - name: Elenco
+              uid: az_network_vpn_connection_list
+              displayName: az network vpn-connection list
+            - name: Mostra
+              uid: az_network_vpn_connection_show
+              displayName: az network vpn-connection show
+            - name: Aggiornare
+              uid: az_network_vpn_connection_update
+              displayName: az network vpn-connection update
+            - name: Ipsec-Policy
+              uid: az_network_vpn_connection_ipsec_policy
+              displayName: az network vpn-connection ipsec-policy
+              items:
+                - name: Add
+                  uid: az_network_vpn_connection_ipsec_policy_add
+                  displayName: az network vpn-connection ipsec-policy add
+                - name: Cancellazione
+                  uid: az_network_vpn_connection_ipsec_policy_clear
+                  displayName: az network vpn-connection ipsec-policy clear
+                - name: Elenco
+                  uid: az_network_vpn_connection_ipsec_policy_list
+                  displayName: az network vpn-connection ipsec-policy list
+            - name: Chiavi condivise
+              uid: az_network_vpn_connection_shared_key
+              displayName: az network vpn-connection shared-key
+              items:
+                - name: Reimpostazione
+                  uid: az_network_vpn_connection_shared_key_reset
+                  displayName: az network vpn-connection shared-key reset
+                - name: Mostra
+                  uid: az_network_vpn_connection_shared_key_show
+                  displayName: az network vpn-connection shared-key show
+                - name: Aggiornare
+                  uid: az_network_vpn_connection_shared_key_update
+                  displayName: az network vpn-connection shared-key update
+        - name: Rete virtuale
+          uid: az_network_vnet
+          displayName: az network vnet
+          items:
+            - name: Create
+              uid: az_network_vnet_create
+              displayName: az network vnet create
+            - name: Elimina
+              uid: az_network_vnet_delete
+              displayName: az network vnet delete
+            - name: Elenco
+              uid: az_network_vnet_list
+              displayName: az network vnet list
+            - name: Mostra
+              uid: az_network_vnet_show
+              displayName: az network vnet show
+            - name: Aggiornare
+              uid: az_network_vnet_update
+              displayName: az network vnet update
+            - name: Subnet
+              uid: az_network_vnet_subnet
+              displayName: az network vnet subnet
+              items:
+                - name: Create
+                  uid: az_network_vnet_subnet_create
+                  displayName: az network vnet subnet create
+                - name: Elimina
+                  uid: az_network_vnet_subnet_delete
+                  displayName: az network vnet subnet delete
+                - name: Elenco
+                  uid: az_network_vnet_subnet_list
+                  displayName: az network vnet subnet list
+                - name: Mostra
+                  uid: az_network_vnet_subnet_show
+                  displayName: az network vnet subnet show
+                - name: Aggiornare
+                  uid: az_network_vnet_subnet_update
+                  displayName: az network vnet subnet update
+        - name: Gateway di rete virtuale
+          uid: az_network_vnet_gateway
+          displayName: az network vnet-gateway
+          items:
+            - name: Create
+              uid: az_network_vnet_gateway_create
+              displayName: az network vnet-gateway create
+            - name: Elimina
+              uid: az_network_vnet_gateway_delete
+              displayName: az network vnet-gateway delete
+            - name: Elenco
+              uid: az_network_vnet_gateway_list
+              displayName: az network vnet-gateway list
+            - name: Reimpostazione
+              uid: az_network_vnet_gateway_reset
+              displayName: az network vnet-gateway reset
+            - name: Mostra
+              uid: az_network_vnet_gateway_show
+              displayName: az network vnet-gateway show
+            - name: Aggiornare
+              uid: az_network_vnet_gateway_update
+              displayName: az network vnet-gateway update
+            - name: Attesa
+              uid: az_network_vnet_gateway_wait
+              displayName: az network vnet-gateway wait
+            - name: Certificati revocati
+              uid: az_network_vnet_gateway_revoked_cert
+              displayName: az network vnet-gateway revoked-cert
+              items:
+                - name: Create
+                  uid: az_network_vnet_gateway_revoked_cert_create
+                  displayName: az network vnet-gateway revoked-cert create
+                - name: Elimina
+                  uid: az_network_vnet_gateway_revoked_cert_delete
+                  displayName: az network vnet-gateway revoked-cert delete
+            - name: Certificati radice
+              uid: az_network_vnet_gateway_root_cert
+              displayName: az network vnet-gateway root-cert
+              items:
+                - name: Create
+                  uid: az_network_vnet_gateway_root_cert_create
+                  displayName: az network vnet-gateway root-cert create
+                - name: Elimina
+                  uid: az_network_vnet_gateway_root_cert_delete
+                  displayName: az network vnet-gateway root-cert delete
+        - name: Watcher
+          uid: az_network_watcher
+          displayName: az network watcher
+          items:
+            - name: Configurare
+              uid: az_network_watcher_configure
+              displayName: az network watcher configure
+            - name: Show-Next-Hop
+              uid: az_network_watcher_show_next_hop
+              displayName: az network watcher show-next-hop
+            - name: Show-Security-Group-View
+              uid: az_network_watcher_show_security_group_view
+              displayName: az network watcher show-security-group-view
+            - name: Test-Connectivity
+              uid: az_network_watcher_test_connectivity
+              displayName: az network watcher test-connectivity
+            - name: Test-Ip-Flow
+              uid: az_network_watcher_test_ip_flow
+              displayName: az network watcher test-ip-flow
+            - name: Flow-Log
+              uid: az_network_watcher_flow_log
+              displayName: az network watcher flow-log
+              items:
+                - name: Configurare
+                  uid: az_network_watcher_flow_log_configure
+                  displayName: az network watcher flow-log configure
+                - name: Mostra
+                  uid: az_network_watcher_flow_log_show
+                  displayName: az network watcher flow-log show
+            - name: Packet-Capture
+              uid: az_network_watcher_packet_capture
+              displayName: az network watcher packet-capture
+              items:
+                - name: Create
+                  uid: az_network_watcher_packet_capture_create
+                  displayName: az network watcher packet-capture create
+            - name: Risoluzione dei problemi
+              uid: az_network_watcher_troubleshooting
+              displayName: az network watcher troubleshooting
+              items:
+                - name: Mostra
+                  uid: az_network_watcher_troubleshooting_show
+                  displayName: az network watcher troubleshooting show
+                - name: Inizia
+                  uid: az_network_watcher_troubleshooting_start
+                  displayName: az network watcher troubleshooting start
+    - name: Gruppi di risorse
+      uid: az_group
+      displayName: az group
+      items:
+        - name: Create
+          uid: az_group_create
+          displayName: az group create
+        - name: Elimina
+          uid: az_group_delete
+          displayName: az group delete
+        - name: Exists
+          uid: az_group_exists
+          displayName: az group exists
+        - name: Esporta
+          uid: az_group_export
+          displayName: az group export
+        - name: Elenco
+          uid: az_group_list
+          displayName: az group list
+        - name: Mostra
+          uid: az_group_show
+          displayName: az group show
+        - name: Aggiornare
+          uid: az_group_update
+          displayName: az group update
+        - name: Attesa
+          uid: az_group_wait
+          displayName: az group wait
+        - name: Deployments
+          uid: az_group_deployment
+          displayName: az group deployment
+          items:
+            - name: Create
+              uid: az_group_deployment_create
+              displayName: az group deployment create
+            - name: Elimina
+              uid: az_group_deployment_delete
+              displayName: az group deployment delete
+            - name: Esporta
+              uid: az_group_deployment_export
+              displayName: az group deployment export
+            - name: Elenco
+              uid: az_group_deployment_list
+              displayName: az group deployment list
+            - name: Mostra
+              uid: az_group_deployment_show
+              displayName: az group deployment show
+            - name: Convalida
+              uid: az_group_deployment_validate
+              displayName: az group deployment validate
+            - name: Attesa
+              uid: az_group_deployment_wait
+              displayName: az group deployment wait
+            - name: Operazioni
+              uid: az_group_deployment_operation
+              displayName: az group deployment operation
+              items:
+                - name: Elenco
+                  uid: az_group_deployment_operation_list
+                  displayName: az group deployment operation list
+                - name: Mostra
+                  uid: az_group_deployment_operation_show
+                  displayName: az group deployment operation show
+    - name: Criteri delle risorse
+      uid: az_policy
+      displayName: az policy
+      items:
+        - name: Assegnazioni
+          uid: az_policy_assignment
+          displayName: az policy assignment
+          items:
+            - name: Create
+              uid: az_policy_assignment_create
+              displayName: az policy assignment create
+            - name: Elimina
+              uid: az_policy_assignment_delete
+              displayName: az policy assignment delete
+            - name: Elenco
+              uid: az_policy_assignment_list
+              displayName: az policy assignment list
+            - name: Mostra
+              uid: az_policy_assignment_show
+              displayName: az policy assignment show
+        - name: Definizioni
+          uid: az_policy_definition
+          displayName: az policy definition
+          items:
+            - name: Create
+              uid: az_policy_definition_create
+              displayName: az policy definition create
+            - name: Elimina
+              uid: az_policy_definition_delete
+              displayName: az policy definition delete
+            - name: Elenco
+              uid: az_policy_definition_list
+              displayName: az policy definition list
+            - name: Mostra
+              uid: az_policy_definition_show
+              displayName: az policy definition show
+            - name: Aggiornare
+              uid: az_policy_definition_update
+              displayName: az policy definition update
+    - name: Provider di risorse
+      uid: az_provider
+      displayName: az provider
+      items:
+        - name: Elenco
+          uid: az_provider_list
+          displayName: az provider list
+        - name: Registra
+          uid: az_provider_register
+          displayName: az provider register
+        - name: Mostra
+          uid: az_provider_show
+          displayName: az provider show
+        - name: 'Unregister '
+          uid: az_provider_unregister
+          displayName: az provider unregister
+        - name: Operazione
+          uid: az_provider_operation
+          displayName: az provider operation
+          items:
+            - name: Elenco
+              uid: az_provider_operation_list
+              displayName: az provider operation list
+            - name: Mostra
+              uid: az_provider_operation_show
+              displayName: az provider operation show
+    - name: Tag delle risorse
+      uid: az_tag
+      displayName: az tag
+      items:
+        - name: Add-Value
+          uid: az_tag_add_value
+          displayName: az tag add-value
+        - name: Create
+          uid: az_tag_create
+          displayName: az tag create
+        - name: Elimina
+          uid: az_tag_delete
+          displayName: az tag delete
+        - name: Elenco
+          uid: az_tag_list
+          displayName: az tag list
+        - name: Remove-Value
+          uid: az_tag_remove_value
+          displayName: az tag remove-value
+    - name: Risorse
+      uid: az_resource
+      displayName: az resource
+      items:
+        - name: Create
+          uid: az_resource_create
+          displayName: az resource create
+        - name: Elimina
+          uid: az_resource_delete
+          displayName: az resource delete
+        - name: Elenco
+          uid: az_resource_list
+          displayName: az resource list
+        - name: Spostamento
+          uid: az_resource_move
+          displayName: az resource move
+        - name: Mostra
+          uid: az_resource_show
+          displayName: az resource show
+        - name: Tag
+          uid: az_resource_tag
+          displayName: az resource tag
+        - name: Aggiornare
+          uid: az_resource_update
+          displayName: az resource update
+        - name: Collegamenti
+          uid: az_resource_link
+          displayName: az resource link
+          items:
+            - name: Create
+              uid: az_resource_link_create
+              displayName: az resource link create
+            - name: Elimina
+              uid: az_resource_link_delete
+              displayName: az resource link delete
+            - name: Elenco
+              uid: az_resource_link_list
+              displayName: az resource link list
+            - name: Mostra
+              uid: az_resource_link_show
+              displayName: az resource link show
+            - name: Aggiornare
+              uid: az_resource_link_update
+              displayName: az resource link update
+    - name: Ruoli
+      uid: az_role
+      displayName: az role
+      items:
+        - name: Assegnazioni
+          uid: az_role_assignment
+          displayName: az role assignment
+          items:
+            - name: Create
+              uid: az_role_assignment_create
+              displayName: az role assignment create
+            - name: Elimina
+              uid: az_role_assignment_delete
+              displayName: az role assignment delete
+            - name: Elenco
+              uid: az_role_assignment_list
+              displayName: az role assignment list
+        - name: Definizioni
+          uid: az_role_definition
+          displayName: az role definition
+          items:
+            - name: Create
+              uid: az_role_definition_create
+              displayName: az role definition create
+            - name: Elimina
+              uid: az_role_definition_delete
+              displayName: az role definition delete
+            - name: Elenco
+              uid: az_role_definition_list
+              displayName: az role definition list
+            - name: Aggiornare
+              uid: az_role_definition_update
+              displayName: az role definition update
+    - name: Archiviazione
+      uid: az_storage
+      displayName: az storage
+      items:
+        - name: Account
+          uid: az_storage_account
+          displayName: az storage account
+          items:
+            - name: Check-Name
+              uid: az_storage_account_check_name
+              displayName: az storage account check-name
+            - name: Create
+              uid: az_storage_account_create
+              displayName: az storage account create
+            - name: Elimina
+              uid: az_storage_account_delete
+              displayName: az storage account delete
+            - name: Generate-Sas
+              uid: az_storage_account_generate_sas
+              displayName: az storage account generate-sas
+            - name: Elenco
+              uid: az_storage_account_list
+              displayName: az storage account list
+            - name: Mostra
+              uid: az_storage_account_show
+              displayName: az storage account show
+            - name: Show-Connection-String
+              uid: az_storage_account_show_connection_string
+              displayName: az storage account show-connection-string
+            - name: Show-Usage
+              uid: az_storage_account_show_usage
+              displayName: az storage account show-usage
+            - name: Chiavi
+              uid: az_storage_account_keys
+              displayName: az storage account keys
+              items:
+                - name: Elenco
+                  uid: az_storage_account_keys_list
+                  displayName: az storage account keys list
+                - name: Renew
+                  uid: az_storage_account_keys_renew
+                  displayName: az storage account keys renew
+        - name: BLOB
+          uid: az_storage_blob
+          displayName: az storage blob
+          items:
+            - name: Elimina
+              uid: az_storage_blob_delete
+              displayName: az storage blob delete
+            - name: Scaricare
+              uid: az_storage_blob_download
+              displayName: az storage blob download
+            - name: Download-Batch
+              uid: az_storage_blob_download_batch
+              displayName: az storage blob download-batch
+            - name: Exists
+              uid: az_storage_blob_exists
+              displayName: az storage blob exists
+            - name: Generate-Sas
+              uid: az_storage_blob_generate_sas
+              displayName: az storage blob generate-sas
+            - name: Elenco
+              uid: az_storage_blob_list
+              displayName: az storage blob list
+            - name: Set-Tier
+              uid: az_storage_blob_set_tier
+              displayName: az storage blob set-tier
+            - name: Mostra
+              uid: az_storage_blob_show
+              displayName: az storage blob show
+            - name: Snapshot
+              uid: az_storage_blob_snapshot
+              displayName: az storage blob snapshot
+            - name: Aggiornare
+              uid: az_storage_blob_update
+              displayName: az storage blob update
+            - name: Carica
+              uid: az_storage_blob_upload
+              displayName: az storage blob upload
+            - name: Upload-Batch
+              uid: az_storage_blob_upload_batch
+              displayName: az storage blob upload-batch
+            - name: Url
+              uid: az_storage_blob_url
+              displayName: az storage blob url
+            - name: Operazioni di copia
+              uid: az_storage_blob_copy
+              displayName: az storage blob copy
+              items:
+                - name: Annulla
+                  uid: az_storage_blob_copy_cancel
+                  displayName: az storage blob copy cancel
+                - name: Inizia
+                  uid: az_storage_blob_copy_start
+                  displayName: az storage blob copy start
+                - name: Start-Batch
+                  uid: az_storage_blob_copy_start_batch
+                  displayName: az storage blob copy start-batch
+            - name: Incremental-Copy
+              uid: az_storage_blob_incremental_copy
+              displayName: az storage blob incremental-copy
+              items:
+                - name: Annulla
+                  uid: az_storage_blob_incremental_copy_cancel
+                  displayName: az storage blob incremental-copy cancel
+            - name: Lease
+              uid: az_storage_blob_lease
+              displayName: az storage blob lease
+              items:
+                - name: Acquisizione
+                  uid: az_storage_blob_lease_acquire
+                  displayName: az storage blob lease acquire
+                - name: Interruzione
+                  uid: az_storage_blob_lease_break
+                  displayName: az storage blob lease break
+                - name: Modifica
+                  uid: az_storage_blob_lease_change
+                  displayName: az storage blob lease change
+                - name: Versione
+                  uid: az_storage_blob_lease_release
+                  displayName: az storage blob lease release
+                - name: Renew
+                  uid: az_storage_blob_lease_renew
+                  displayName: az storage blob lease renew
+            - name: Metadata
+              uid: az_storage_blob_metadata
+              displayName: az storage blob metadata
+              items:
+                - name: Mostra
+                  uid: az_storage_blob_metadata_show
+                  displayName: az storage blob metadata show
+                - name: Aggiornare
+                  uid: az_storage_blob_metadata_update
+                  displayName: az storage blob metadata update
+            - name: Proprietà del servizio
+              uid: az_storage_blob_service_properties
+              displayName: az storage blob service-properties
+              items:
+                - name: Mostra
+                  uid: az_storage_blob_service_properties_show
+                  displayName: az storage blob service-properties show
+        - name: Contenitori
+          uid: az_storage_container
+          displayName: az storage container
+          items:
+            - name: Create
+              uid: az_storage_container_create
+              displayName: az storage container create
+            - name: Elimina
+              uid: az_storage_container_delete
+              displayName: az storage container delete
+            - name: Exists
+              uid: az_storage_container_exists
+              displayName: az storage container exists
+            - name: Generate-Sas
+              uid: az_storage_container_generate_sas
+              displayName: az storage container generate-sas
+            - name: Elenco
+              uid: az_storage_container_list
+              displayName: az storage container list
+            - name: Set-Permission
+              uid: az_storage_container_set_permission
+              displayName: az storage container set-permission
+            - name: Mostra
+              uid: az_storage_container_show
+              displayName: az storage container show
+            - name: Show-Permission
+              uid: az_storage_container_show_permission
+              displayName: az storage container show-permission
+            - name: Lease
+              uid: az_storage_container_lease
+              displayName: az storage container lease
+              items:
+                - name: Acquisizione
+                  uid: az_storage_container_lease_acquire
+                  displayName: az storage container lease acquire
+                - name: Interruzione
+                  uid: az_storage_container_lease_break
+                  displayName: az storage container lease break
+                - name: Modifica
+                  uid: az_storage_container_lease_change
+                  displayName: az storage container lease change
+                - name: Versione
+                  uid: az_storage_container_lease_release
+                  displayName: az storage container lease release
+                - name: Renew
+                  uid: az_storage_container_lease_renew
+                  displayName: az storage container lease renew
+            - name: Metadata
+              uid: az_storage_container_metadata
+              displayName: az storage container metadata
+              items:
+                - name: Mostra
+                  uid: az_storage_container_metadata_show
+                  displayName: az storage container metadata show
+                - name: Aggiornare
+                  uid: az_storage_container_metadata_update
+                  displayName: az storage container metadata update
+            - name: Criteri
+              uid: az_storage_container_policy
+              displayName: az storage container policy
+              items:
+                - name: Create
+                  uid: az_storage_container_policy_create
+                  displayName: az storage container policy create
+                - name: Elimina
+                  uid: az_storage_container_policy_delete
+                  displayName: az storage container policy delete
+                - name: Elenco
+                  uid: az_storage_container_policy_list
+                  displayName: az storage container policy list
+                - name: Mostra
+                  uid: az_storage_container_policy_show
+                  displayName: az storage container policy show
+        - name: Condivisione di risorse tra le origini
+          uid: az_storage_cors
+          displayName: az storage cors
+          items:
+            - name: Add
+              uid: az_storage_cors_add
+              displayName: az storage cors add
+            - name: Cancellazione
+              uid: az_storage_cors_clear
+              displayName: az storage cors clear
+            - name: Elenco
+              uid: az_storage_cors_list
+              displayName: az storage cors list
+        - name: Directory
+          uid: az_storage_directory
+          displayName: az storage directory
+          items:
+            - name: Create
+              uid: az_storage_directory_create
+              displayName: az storage directory create
+            - name: Elimina
+              uid: az_storage_directory_delete
+              displayName: az storage directory delete
+            - name: Exists
+              uid: az_storage_directory_exists
+              displayName: az storage directory exists
+            - name: Elenco
+              uid: az_storage_directory_list
+              displayName: az storage directory list
+            - name: Mostra
+              uid: az_storage_directory_show
+              displayName: az storage directory show
+            - name: Metadata
+              uid: az_storage_directory_metadata
+              displayName: az storage directory metadata
+              items:
+                - name: Mostra
+                  uid: az_storage_directory_metadata_show
+                  displayName: az storage directory metadata show
+                - name: Aggiornare
+                  uid: az_storage_directory_metadata_update
+                  displayName: az storage directory metadata update
+        - name: Condivisioni file
+          uid: az_storage_share
+          displayName: az storage share
+          items:
+            - name: Create
+              uid: az_storage_share_create
+              displayName: az storage share create
+            - name: Elimina
+              uid: az_storage_share_delete
+              displayName: az storage share delete
+            - name: Exists
+              uid: az_storage_share_exists
+              displayName: az storage share exists
+            - name: Generate-Sas
+              uid: az_storage_share_generate_sas
+              displayName: az storage share generate-sas
+            - name: Elenco
+              uid: az_storage_share_list
+              displayName: az storage share list
+            - name: Mostra
+              uid: az_storage_share_show
+              displayName: az storage share show
+            - name: Statistiche
+              uid: az_storage_share_stats
+              displayName: az storage share stats
+            - name: Aggiornare
+              uid: az_storage_share_update
+              displayName: az storage share update
+            - name: Metadata
+              uid: az_storage_share_metadata
+              displayName: az storage share metadata
+              items:
+                - name: Mostra
+                  uid: az_storage_share_metadata_show
+                  displayName: az storage share metadata show
+                - name: Aggiornare
+                  uid: az_storage_share_metadata_update
+                  displayName: az storage share metadata update
+            - name: Criteri
+              uid: az_storage_share_policy
+              displayName: az storage share policy
+              items:
+                - name: Create
+                  uid: az_storage_share_policy_create
+                  displayName: az storage share policy create
+                - name: Elimina
+                  uid: az_storage_share_policy_delete
+                  displayName: az storage share policy delete
+                - name: Elenco
+                  uid: az_storage_share_policy_list
+                  displayName: az storage share policy list
+                - name: Mostra
+                  uid: az_storage_share_policy_show
+                  displayName: az storage share policy show
+                - name: Aggiornare
+                  uid: az_storage_share_policy_update
+                  displayName: az storage share policy update
+        - name: File
+          uid: az_storage_file
+          displayName: az storage file
+          items:
+            - name: Elimina
+              uid: az_storage_file_delete
+              displayName: az storage file delete
+            - name: Scaricare
+              uid: az_storage_file_download
+              displayName: az storage file download
+            - name: Download-Batch
+              uid: az_storage_file_download_batch
+              displayName: az storage file download-batch
+            - name: Exists
+              uid: az_storage_file_exists
+              displayName: az storage file exists
+            - name: Generate-Sas
+              uid: az_storage_file_generate_sas
+              displayName: az storage file generate-sas
+            - name: Elenco
+              uid: az_storage_file_list
+              displayName: az storage file list
+            - name: Ridimensionamento
+              uid: az_storage_file_resize
+              displayName: az storage file resize
+            - name: Mostra
+              uid: az_storage_file_show
+              displayName: az storage file show
+            - name: Aggiornare
+              uid: az_storage_file_update
+              displayName: az storage file update
+            - name: Carica
+              uid: az_storage_file_upload
+              displayName: az storage file upload
+            - name: Upload-Batch
+              uid: az_storage_file_upload_batch
+              displayName: az storage file upload-batch
+            - name: Url
+              uid: az_storage_file_url
+              displayName: az storage file url
+            - name: Operazioni di copia
+              uid: az_storage_file_copy
+              displayName: az storage file copy
+              items:
+                - name: Annulla
+                  uid: az_storage_file_copy_cancel
+                  displayName: az storage file copy cancel
+                - name: Inizia
+                  uid: az_storage_file_copy_start
+                  displayName: az storage file copy start
+                - name: Start-Batch
+                  uid: az_storage_file_copy_start_batch
+                  displayName: az storage file copy start-batch
+            - name: Metadata
+              uid: az_storage_file_metadata
+              displayName: az storage file metadata
+              items:
+                - name: Mostra
+                  uid: az_storage_file_metadata_show
+                  displayName: az storage file metadata show
+                - name: Aggiornare
+                  uid: az_storage_file_metadata_update
+                  displayName: az storage file metadata update
+        - name: Registrazione
+          uid: az_storage_logging
+          displayName: az storage logging
+          items:
+            - name: Mostra
+              uid: az_storage_logging_show
+              displayName: az storage logging show
+            - name: Aggiornare
+              uid: az_storage_logging_update
+              displayName: az storage logging update
+        - name: Messaggi
+          uid: az_storage_message
+          displayName: az storage message
+          items:
+            - name: Cancellazione
+              uid: az_storage_message_clear
+              displayName: az storage message clear
+            - name: Elimina
+              uid: az_storage_message_delete
+              displayName: az storage message delete
+            - name: Get
+              uid: az_storage_message_get
+              displayName: az storage message get
+            - name: Visualizzazione
+              uid: az_storage_message_peek
+              displayName: az storage message peek
+            - name: PUT
+              uid: az_storage_message_put
+              displayName: az storage message put
+            - name: Aggiornare
+              uid: az_storage_message_update
+              displayName: az storage message update
+        - name: Metrica
+          uid: az_storage_metrics
+          displayName: az storage metrics
+          items:
+            - name: Mostra
+              uid: az_storage_metrics_show
+              displayName: az storage metrics show
+            - name: Aggiornare
+              uid: az_storage_metrics_update
+              displayName: az storage metrics update
+        - name: Code
+          uid: az_storage_queue
+          displayName: az storage queue
+          items:
+            - name: Create
+              uid: az_storage_queue_create
+              displayName: az storage queue create
+            - name: Elimina
+              uid: az_storage_queue_delete
+              displayName: az storage queue delete
+            - name: Exists
+              uid: az_storage_queue_exists
+              displayName: az storage queue exists
+            - name: Generate-Sas
+              uid: az_storage_queue_generate_sas
+              displayName: az storage queue generate-sas
+            - name: Elenco
+              uid: az_storage_queue_list
+              displayName: az storage queue list
+            - name: Metadata
+              uid: az_storage_queue_metadata
+              displayName: az storage queue metadata
+              items:
+                - name: Mostra
+                  uid: az_storage_queue_metadata_show
+                  displayName: az storage queue metadata show
+                - name: Aggiornare
+                  uid: az_storage_queue_metadata_update
+                  displayName: az storage queue metadata update
+            - name: Criteri
+              uid: az_storage_queue_policy
+              displayName: az storage queue policy
+              items:
+                - name: Create
+                  uid: az_storage_queue_policy_create
+                  displayName: az storage queue policy create
+                - name: Elimina
+                  uid: az_storage_queue_policy_delete
+                  displayName: az storage queue policy delete
+                - name: Elenco
+                  uid: az_storage_queue_policy_list
+                  displayName: az storage queue policy list
+                - name: Mostra
+                  uid: az_storage_queue_policy_show
+                  displayName: az storage queue policy show
+                - name: Aggiornare
+                  uid: az_storage_queue_policy_update
+                  displayName: az storage queue policy update
+        - name: Entità di archiviazione tabelle
+          uid: az_storage_entity
+          displayName: az storage entity
+          items:
+            - name: Elimina
+              uid: az_storage_entity_delete
+              displayName: az storage entity delete
+            - name: Inserimento
+              uid: az_storage_entity_insert
+              displayName: az storage entity insert
+            - name: Unione
+              uid: az_storage_entity_merge
+              displayName: az storage entity merge
+            - name: Query
+              uid: az_storage_entity_query
+              displayName: az storage entity query
+            - name: Replace
+              uid: az_storage_entity_replace
+              displayName: az storage entity replace
+            - name: Mostra
+              uid: az_storage_entity_show
+              displayName: az storage entity show
+        - name: Tabelle
+          uid: az_storage_table
+          displayName: az storage table
+          items:
+            - name: Create
+              uid: az_storage_table_create
+              displayName: az storage table create
+            - name: Elimina
+              uid: az_storage_table_delete
+              displayName: az storage table delete
+            - name: Exists
+              uid: az_storage_table_exists
+              displayName: az storage table exists
+            - name: Generate-Sas
+              uid: az_storage_table_generate_sas
+              displayName: az storage table generate-sas
+            - name: Elenco
+              uid: az_storage_table_list
+              displayName: az storage table list
+            - name: Criteri
+              uid: az_storage_table_policy
+              displayName: az storage table policy
+              items:
+                - name: Create
+                  uid: az_storage_table_policy_create
+                  displayName: az storage table policy create
+                - name: Elimina
+                  uid: az_storage_table_policy_delete
+                  displayName: az storage table policy delete
+                - name: Elenco
+                  uid: az_storage_table_policy_list
+                  displayName: az storage table policy list
+                - name: Mostra
+                  uid: az_storage_table_policy_show
+                  displayName: az storage table policy show
+                - name: Aggiornare
+                  uid: az_storage_table_policy_update
+                  displayName: az storage table policy update
+    - name: Sottoscrizioni
+      uid: az_account
+      displayName: az account
+      items:
+        - name: Cancellazione
+          uid: az_account_clear
+          displayName: az account clear
+        - name: Get-Access-Token
+          uid: az_account_get_access_token
+          displayName: az account get-access-token
+        - name: Elenco
+          uid: az_account_list
+          displayName: az account list
+        - name: List-Locations
+          uid: az_account_list_locations
+          displayName: az account list-locations
+        - name: Configurazione
+          uid: az_account_set
+          displayName: az account set
+        - name: Mostra
+          uid: az_account_show
+          displayName: az account show
+    - name: VM Images (Immagini di VM)
+      uid: az_image
+      displayName: az image
+      items:
+        - name: Create
+          uid: az_image_create
+          displayName: az image create
+        - name: Elenco
+          uid: az_image_list
+          displayName: az image list
+    - name: Set di scalabilità delle VM
+      uid: az_vmss
+      displayName: az vmss
+      items:
+        - name: Assign-Identity
+          uid: az_vmss_assign_identity
+          displayName: az vmss assign-identity
+        - name: Create
+          uid: az_vmss_create
+          displayName: az vmss create
+        - name: Deallocare
+          uid: az_vmss_deallocate
+          displayName: az vmss deallocate
+        - name: Elimina
+          uid: az_vmss_delete
+          displayName: az vmss delete
+        - name: Delete-Instances
+          uid: az_vmss_delete_instances
+          displayName: az vmss delete-instances
+        - name: Get-Instance-View
+          uid: az_vmss_get_instance_view
+          displayName: az vmss get-instance-view
+        - name: Elenco
+          uid: az_vmss_list
+          displayName: az vmss list
+        - name: List-Instance-Connection-Info
+          uid: az_vmss_list_instance_connection_info
+          displayName: az vmss list-instance-connection-info
+        - name: List-Instance-Public-Ips
+          uid: az_vmss_list_instance_public_ips
+          displayName: az vmss list-instance-public-ips
+        - name: List-Instances
+          uid: az_vmss_list_instances
+          displayName: az vmss list-instances
+        - name: List-Skus
+          uid: az_vmss_list_skus
+          displayName: az vmss list-skus
+        - name: Riavvia
+          uid: az_vmss_restart
+          displayName: az vmss restart
+        - name: Scalabilità
+          uid: az_vmss_scale
+          displayName: az vmss scale
+        - name: Mostra
+          uid: az_vmss_show
+          displayName: az vmss show
+        - name: Inizia
+          uid: az_vmss_start
+          displayName: az vmss start
+        - name: Arresto
+          uid: az_vmss_stop
+          displayName: az vmss stop
+        - name: Aggiornare
+          uid: az_vmss_update
+          displayName: az vmss update
+        - name: Update-Instances
+          uid: az_vmss_update_instances
+          displayName: az vmss update-instances
+        - name: Attesa
+          uid: az_vmss_wait
+          displayName: az vmss wait
+        - name: Diagnostica
+          uid: az_vmss_diagnostics
+          displayName: az vmss diagnostics
+          items:
+            - name: Get-Default-Config
+              uid: az_vmss_diagnostics_get_default_config
+              displayName: az vmss diagnostics get-default-config
+            - name: Configurazione
+              uid: az_vmss_diagnostics_set
+              displayName: az vmss diagnostics set
+        - name: Estensioni
+          uid: az_vmss_extension
+          displayName: az vmss extension
+          items:
+            - name: Elimina
+              uid: az_vmss_extension_delete
+              displayName: az vmss extension delete
+            - name: Elenco
+              uid: az_vmss_extension_list
+              displayName: az vmss extension list
+            - name: Configurazione
+              uid: az_vmss_extension_set
+              displayName: az vmss extension set
+            - name: Mostra
+              uid: az_vmss_extension_show
+              displayName: az vmss extension show
+            - name: Immagini
+              uid: az_vmss_extension_image
+              displayName: az vmss extension image
+              items:
+                - name: Elenco
+                  uid: az_vmss_extension_image_list
+                  displayName: az vmss extension image list
+                - name: List-Names
+                  uid: az_vmss_extension_image_list_names
+                  displayName: az vmss extension image list-names
+                - name: List-Versions
+                  uid: az_vmss_extension_image_list_versions
+                  displayName: az vmss extension image list-versions
+                - name: Mostra
+                  uid: az_vmss_extension_image_show
+                  displayName: az vmss extension image show
+        - name: Interfacce di rete
+          uid: az_vmss_nic
+          displayName: az vmss nic
+          items:
+            - name: Elenco
+              uid: az_vmss_nic_list
+              displayName: az vmss nic list
+            - name: List-Vm-Nics
+              uid: az_vmss_nic_list_vm_nics
+              displayName: az vmss nic list-vm-nics
+            - name: Mostra
+              uid: az_vmss_nic_show
+              displayName: az vmss nic show
+    - name: Macchine virtuali
+      uid: az_vm
+      displayName: az vm
+      items:
+        - name: Assign-Identity
+          uid: az_vm_assign_identity
+          displayName: az vm assign-identity
+        - name: Acquisizione
+          uid: az_vm_capture
+          displayName: az vm capture
+        - name: Create
+          uid: az_vm_create
+          displayName: az vm create
+        - name: Deallocare
+          uid: az_vm_deallocate
+          displayName: az vm deallocate
+        - name: Elimina
+          uid: az_vm_delete
+          displayName: az vm delete
+        - name: Format-Secret
+          uid: az_vm_format_secret
+          displayName: az vm format-secret
+        - name: Generalizzazione
+          uid: az_vm_generalize
+          displayName: az vm generalize
+        - name: Get-Instance-View
+          uid: az_vm_get_instance_view
+          displayName: az vm get-instance-view
+        - name: Elenco
+          uid: az_vm_list
+          displayName: az vm list
+        - name: List-Ip-Addresses
+          uid: az_vm_list_ip_addresses
+          displayName: az vm list-ip-addresses
+        - name: List-Sizes
+          uid: az_vm_list_sizes
+          displayName: az vm list-sizes
+        - name: List-Usage
+          uid: az_vm_list_usage
+          displayName: az vm list-usage
+        - name: List-Vm-Resize-Options
+          uid: az_vm_list_vm_resize_options
+          displayName: az vm list-vm-resize-options
+        - name: Open-Port
+          uid: az_vm_open_port
+          displayName: az vm open-port
+        - name: Ripetere la distribuzione
+          uid: az_vm_redeploy
+          displayName: az vm redeploy
+        - name: Ridimensionamento
+          uid: az_vm_resize
+          displayName: az vm resize
+        - name: Riavvia
+          uid: az_vm_restart
+          displayName: az vm restart
+        - name: Mostra
+          uid: az_vm_show
+          displayName: az vm show
+        - name: Inizia
+          uid: az_vm_start
+          displayName: az vm start
+        - name: Arresto
+          uid: az_vm_stop
+          displayName: az vm stop
+        - name: Aggiornare
+          uid: az_vm_update
+          displayName: az vm update
+        - name: Attesa
+          uid: az_vm_wait
+          displayName: az vm wait
+        - name: SET DI DISPONIBILITÀ
+          uid: az_vm_availability_set
+          displayName: az vm availability-set
+          items:
+            - name: Create
+              uid: az_vm_availability_set_create
+              displayName: az vm availability-set create
+            - name: Elimina
+              uid: az_vm_availability_set_delete
+              displayName: az vm availability-set delete
+            - name: Elenco
+              uid: az_vm_availability_set_list
+              displayName: az vm availability-set list
+            - name: List-Sizes
+              uid: az_vm_availability_set_list_sizes
+              displayName: az vm availability-set list-sizes
+            - name: Mostra
+              uid: az_vm_availability_set_show
+              displayName: az vm availability-set show
+            - name: Aggiornare
+              uid: az_vm_availability_set_update
+              displayName: az vm availability-set update
+        - name: Diagnostica di avvio
+          uid: az_vm_boot_diagnostics
+          displayName: az vm boot-diagnostics
+          items:
+            - name: Disabilitazione
+              uid: az_vm_boot_diagnostics_disable
+              displayName: az vm boot-diagnostics disable
+            - name: Abilita
+              uid: az_vm_boot_diagnostics_enable
+              displayName: az vm boot-diagnostics enable
+            - name: Get-Boot-Log
+              uid: az_vm_boot_diagnostics_get_boot_log
+              displayName: az vm boot-diagnostics get-boot-log
+        - name: Diagnostica
+          uid: az_vm_diagnostics
+          displayName: az vm diagnostics
+          items:
+            - name: Get-Default-Config
+              uid: az_vm_diagnostics_get_default_config
+              displayName: az vm diagnostics get-default-config
+            - name: Configurazione
+              uid: az_vm_diagnostics_set
+              displayName: az vm diagnostics set
+        - name: Estensioni
+          uid: az_vm_extension
+          displayName: az vm extension
+          items:
+            - name: Elimina
+              uid: az_vm_extension_delete
+              displayName: az vm extension delete
+            - name: Elenco
+              uid: az_vm_extension_list
+              displayName: az vm extension list
+            - name: Configurazione
+              uid: az_vm_extension_set
+              displayName: az vm extension set
+            - name: Mostra
+              uid: az_vm_extension_show
+              displayName: az vm extension show
+            - name: Immagini delle estensioni
+              uid: az_vm_extension_image
+              displayName: az vm extension image
+              items:
+                - name: Elenco
+                  uid: az_vm_extension_image_list
+                  displayName: az vm extension image list
+                - name: List-Names
+                  uid: az_vm_extension_image_list_names
+                  displayName: az vm extension image list-names
+                - name: List-Versions
+                  uid: az_vm_extension_image_list_versions
+                  displayName: az vm extension image list-versions
+                - name: Mostra
+                  uid: az_vm_extension_image_show
+                  displayName: az vm extension image show
+        - name: Immagini
+          uid: az_vm_image
+          displayName: az vm image
+          items:
+            - name: Elenco
+              uid: az_vm_image_list
+              displayName: az vm image list
+            - name: List-Offers
+              uid: az_vm_image_list_offers
+              displayName: az vm image list-offers
+            - name: List-Publishers
+              uid: az_vm_image_list_publishers
+              displayName: az vm image list-publishers
+            - name: List-Skus
+              uid: az_vm_image_list_skus
+              displayName: az vm image list-skus
+            - name: Mostra
+              uid: az_vm_image_show
+              displayName: az vm image show
+        - name: Interfacce di rete
+          uid: az_vm_nic
+          displayName: az vm nic
+          items:
+            - name: Add
+              uid: az_vm_nic_add
+              displayName: az vm nic add
+            - name: Elenco
+              uid: az_vm_nic_list
+              displayName: az vm nic list
+            - name: Rimuovere
+              uid: az_vm_nic_remove
+              displayName: az vm nic remove
+            - name: Configurazione
+              uid: az_vm_nic_set
+              displayName: az vm nic set
+            - name: Mostra
+              uid: az_vm_nic_show
+              displayName: az vm nic show
+        - name: Dischi non gestiti
+          uid: az_vm_unmanaged_disk
+          displayName: az vm unmanaged-disk
+          items:
+            - name: Collegamento
+              uid: az_vm_unmanaged_disk_attach
+              displayName: az vm unmanaged-disk attach
+            - name: Scollegamento
+              uid: az_vm_unmanaged_disk_detach
+              displayName: az vm unmanaged-disk detach
+            - name: Elenco
+              uid: az_vm_unmanaged_disk_list
+              displayName: az vm unmanaged-disk list
+        - name: Utenti
+          uid: az_vm_user
+          displayName: az vm user
+          items:
+            - name: Elimina
+              uid: az_vm_user_delete
+              displayName: az vm user delete
+            - name: Reset-Ssh
+              uid: az_vm_user_reset_ssh
+              displayName: az vm user reset-ssh
+            - name: Aggiornare
+              uid: az_vm_user_update
+              displayName: az vm user update
+    - name: App Web
+      uid: az_webapp
+      displayName: az webapp
+      items:
+        - name: Sfoglia
+          uid: az_webapp_browse
+          displayName: az webapp browse
+        - name: Create
+          uid: az_webapp_create
+          displayName: az webapp create
+        - name: Elimina
+          uid: az_webapp_delete
+          displayName: az webapp delete
+        - name: Elenco
+          uid: az_webapp_list
+          displayName: az webapp list
+        - name: List-Runtimes
+          uid: az_webapp_list_runtimes
+          displayName: az webapp list-runtimes
+        - name: Riavvia
+          uid: az_webapp_restart
+          displayName: az webapp restart
+        - name: Mostra
+          uid: az_webapp_show
+          displayName: az webapp show
+        - name: Inizia
+          uid: az_webapp_start
+          displayName: az webapp start
+        - name: Arresto
+          uid: az_webapp_stop
+          displayName: az webapp stop
+        - name: Config
+          uid: az_webapp_config
+          displayName: az webapp config
+          items:
+            - name: Configurazione
+              uid: az_webapp_config_set
+              displayName: az webapp config set
+            - name: Mostra
+              uid: az_webapp_config_show
+              displayName: az webapp config show
+            - name: Appsettings
+              uid: az_webapp_config_appsettings
+              displayName: az webapp config appsettings
+              items:
+                - name: Elimina
+                  uid: az_webapp_config_appsettings_delete
+                  displayName: az webapp config appsettings delete
+                - name: Elenco
+                  uid: az_webapp_config_appsettings_list
+                  displayName: az webapp config appsettings list
+                - name: Configurazione
+                  uid: az_webapp_config_appsettings_set
+                  displayName: az webapp config appsettings set
+            - name: Backup
+              uid: az_webapp_config_backup
+              displayName: az webapp config backup
+              items:
+                - name: Create
+                  uid: az_webapp_config_backup_create
+                  displayName: az webapp config backup create
+                - name: Elenco
+                  uid: az_webapp_config_backup_list
+                  displayName: az webapp config backup list
+                - name: Ripristino
+                  uid: az_webapp_config_backup_restore
+                  displayName: az webapp config backup restore
+                - name: Mostra
+                  uid: az_webapp_config_backup_show
+                  displayName: az webapp config backup show
+                - name: Aggiornare
+                  uid: az_webapp_config_backup_update
+                  displayName: az webapp config backup update
+            - name: Connection-String
+              uid: az_webapp_config_connection_string
+              displayName: az webapp config connection-string
+              items:
+                - name: Elimina
+                  uid: az_webapp_config_connection_string_delete
+                  displayName: az webapp config connection-string delete
+                - name: Elenco
+                  uid: az_webapp_config_connection_string_list
+                  displayName: az webapp config connection-string list
+                - name: Configurazione
+                  uid: az_webapp_config_connection_string_set
+                  displayName: az webapp config connection-string set
+            - name: Contenitore
+              uid: az_webapp_config_container
+              displayName: az webapp config container
+              items:
+                - name: Elimina
+                  uid: az_webapp_config_container_delete
+                  displayName: az webapp config container delete
+                - name: Configurazione
+                  uid: az_webapp_config_container_set
+                  displayName: az webapp config container set
+                - name: Mostra
+                  uid: az_webapp_config_container_show
+                  displayName: az webapp config container show
+            - name: Nome host
+              uid: az_webapp_config_hostname
+              displayName: az webapp config hostname
+              items:
+                - name: Add
+                  uid: az_webapp_config_hostname_add
+                  displayName: az webapp config hostname add
+                - name: Elimina
+                  uid: az_webapp_config_hostname_delete
+                  displayName: az webapp config hostname delete
+                - name: Get-External-Ip
+                  uid: az_webapp_config_hostname_get_external_ip
+                  displayName: az webapp config hostname get-external-ip
+                - name: Elenco
+                  uid: az_webapp_config_hostname_list
+                  displayName: az webapp config hostname list
+            - name: Ssl
+              uid: az_webapp_config_ssl
+              displayName: az webapp config ssl
+              items:
+                - name: Associazione
+                  uid: az_webapp_config_ssl_bind
+                  displayName: az webapp config ssl bind
+                - name: Elimina
+                  uid: az_webapp_config_ssl_delete
+                  displayName: az webapp config ssl delete
+                - name: Elenco
+                  uid: az_webapp_config_ssl_list
+                  displayName: az webapp config ssl list
+                - name: Disassociazione
+                  uid: az_webapp_config_ssl_unbind
+                  displayName: az webapp config ssl unbind
+                - name: Carica
+                  uid: az_webapp_config_ssl_upload
+                  displayName: az webapp config ssl upload
+        - name: Distribuzione
+          uid: az_webapp_deployment
+          displayName: az webapp deployment
+          items:
+            - name: List-Publishing-Profiles
+              uid: az_webapp_deployment_list_publishing_profiles
+              displayName: az webapp deployment list-publishing-profiles
+            - name: Contenitore
+              uid: az_webapp_deployment_container
+              displayName: az webapp deployment container
+              items:
+                - name: Config
+                  uid: az_webapp_deployment_container_config
+                  displayName: az webapp deployment container config
+                - name: Show-Cd-Url
+                  uid: az_webapp_deployment_container_show_cd_url
+                  displayName: az webapp deployment container show-cd-url
+            - name: Slot
+              uid: az_webapp_deployment_slot
+              displayName: az webapp deployment slot
+              items:
+                - name: Scambio automatico
+                  uid: az_webapp_deployment_slot_auto_swap
+                  displayName: az webapp deployment slot auto-swap
+                - name: Create
+                  uid: az_webapp_deployment_slot_create
+                  displayName: az webapp deployment slot create
+                - name: Elimina
+                  uid: az_webapp_deployment_slot_delete
+                  displayName: az webapp deployment slot delete
+                - name: Elenco
+                  uid: az_webapp_deployment_slot_list
+                  displayName: az webapp deployment slot list
+                - name: Scambio
+                  uid: az_webapp_deployment_slot_swap
+                  displayName: az webapp deployment slot swap
+            - name: Sorgente
+              uid: az_webapp_deployment_source
+              displayName: az webapp deployment source
+              items:
+                - name: Config
+                  uid: az_webapp_deployment_source_config
+                  displayName: az webapp deployment source config
+                - name: Config-Local-Git
+                  uid: az_webapp_deployment_source_config_local_git
+                  displayName: az webapp deployment source config-local-git
+                - name: Elimina
+                  uid: az_webapp_deployment_source_delete
+                  displayName: az webapp deployment source delete
+                - name: Mostra
+                  uid: az_webapp_deployment_source_show
+                  displayName: az webapp deployment source show
+                - name: Sincronizzazione
+                  uid: az_webapp_deployment_source_sync
+                  displayName: az webapp deployment source sync
+                - name: Update-Token
+                  uid: az_webapp_deployment_source_update_token
+                  displayName: az webapp deployment source update-token
+            - name: Utente
+              uid: az_webapp_deployment_user
+              displayName: az webapp deployment user
+              items:
+                - name: Configurazione
+                  uid: az_webapp_deployment_user_set
+                  displayName: az webapp deployment user set
+                - name: Mostra
+                  uid: az_webapp_deployment_user_show
+                  displayName: az webapp deployment user show
+        - name: Log
+          uid: az_webapp_log
+          displayName: az webapp log
+          items:
+            - name: Config
+              uid: az_webapp_log_config
+              displayName: az webapp log config
+            - name: Scaricare
+              uid: az_webapp_log_download
+              displayName: az webapp log download
+            - name: Mostra
+              uid: az_webapp_log_show
+              displayName: az webapp log show
+            - name: Parte finale
+              uid: az_webapp_log_tail
+              displayName: az webapp log tail
+        - name: Routing del traffico
+          uid: az_webapp_traffic_routing
+          displayName: az webapp traffic-routing
+          items:
+            - name: Cancellazione
+              uid: az_webapp_traffic_routing_clear
+              displayName: az webapp traffic-routing clear
+            - name: Configurazione
+              uid: az_webapp_traffic_routing_set
+              displayName: az webapp traffic-routing set
+            - name: Mostra
+              uid: az_webapp_traffic_routing_show
+              displayName: az webapp traffic-routing show
