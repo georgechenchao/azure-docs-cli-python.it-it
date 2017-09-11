@@ -1,0 +1,50 @@
+- name: Interfaccia della riga di comando di Azure 2.0
+  href: overview.md
+  items:
+    - name: Installa
+      href: install-azure-cli.md
+    - name: Introduzione
+      href: get-started-with-azure-cli.md
+    - name: Cloud Shell
+      href: /azure/cloud-shell/overview
+    - name: Accesso
+      href: authenticate-azure-cli.md
+      items:
+        - name: Creare un’entità servizio
+          href: create-an-azure-service-principal-azure-cli.md
+    - name: Modalità interattiva
+      href: interactive-azure-cli.md
+    - name: Distribuire
+      items:
+        - name: Con modelli
+          href: /azure/azure-resource-manager/resource-group-template-deploy-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+        - name: Esporta modelli
+          href: /azure/azure-resource-manager/resource-manager-export-template-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+        - name: Con modelli privati
+          href: /azure-resource-manager/resource-manager-cli-sas-token?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: Formati di output
+      href: format-output-azure-cli.md
+    - name: Query
+      href: query-azure-cli.md
+    - name: Sottoscrizioni
+      href: manage-azure-subscriptions-azure-cli.md
+    - name: Note sulla versione
+      href: release-notes-azure-cli.md
+- name: Script di esempio
+  items:
+    - name: Macchine virtuali di Linux
+      href: /azure/virtual-machines/linux/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: Macchine virtuali di Windows
+      href: /azure/virtual-machines/windows/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: App Web
+      href: /azure/app-service-web/app-service-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: Funzioni
+      href: /azure/azure-functions/functions-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: Database SQL
+      href: /azure/sql-database/sql-database-cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: PostgreSQL
+      href: /azure/postgresql/sample-scripts-azure-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: MySQL
+      href: /azure/mysql/sample-scripts-azure-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
+    - name: Cosmos DB
+      href: /azure/cosmos-db/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json
