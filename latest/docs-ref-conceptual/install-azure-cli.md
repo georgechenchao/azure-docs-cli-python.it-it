@@ -1,7 +1,7 @@
 ---
 title: Installare l'interfaccia della riga di comando di Azure 2.0.
 description: Documenti di riferimento per l'installazione dell'interfaccia della riga di comando di Azure 2.0
-keywords: Interfaccia della riga di comando di Azure 2.0, informazioni di riferimento sull'interfaccia della riga di comando di Azure 2.0, installare l'interfaccia della riga di comando di Azure 2.0, interfaccia della riga di comando di Azure con Python, disinstallare l'interfaccia della riga di comando di Azure 2.0, interfaccia della riga di comando di Azure, installare l'interfaccia della riga di comando di Azure, informazioni di riferimento sull'interfaccia della riga di comando di Azure
+keywords: interfaccia della riga di comando di Azure, installare l'interfaccia della riga di comando di Azure, interfaccia della riga di comando di Azure con Python, informazioni di riferimento sull'interfaccia della riga di comando di Azure
 author: sptramer
 ms.author: sttramer
 manager: routlaw
@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: azurecli
 ms.service: multiple
 ms.assetid: ea5c0ee1-c530-4a1e-a83f-e1be71f6d416
-ms.openlocfilehash: 00d5b555975007d7e57f04ce5d69f4f29e6d0219
-ms.sourcegitcommit: f107cf927ea1ef51de181d87fc4bc078e9288e47
+ms.openlocfilehash: a61f47076854d0ff0a7056f82240794b7533fe3e
+ms.sourcegitcommit: 3db5fb207db551a0d3fe0a88fe09e8f5e2ec184d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/04/2017
+ms.lasthandoff: 09/14/2017
 ---
 # <a name="install-azure-cli-20"></a>Installare l'interfaccia della riga di comando di Azure 2.0
 
@@ -79,7 +79,7 @@ Per installare l'interfaccia della riga di comando in Windows e usarla nella rig
 
 Per i sistemi basati su Debian/Ubuntu, è possibile installare l'interfaccia della riga di comando di Azure 2.0 tramite `apt-get`.
 
-1. Modificare l'elenco di origini.
+1. Modificare l'elenco di origini:
  
    - Sistema a 32 bit
 
@@ -105,15 +105,63 @@ Per i sistemi basati su Debian/Ubuntu, è possibile installare l'interfaccia del
 
 3.  Eseguire l'interfaccia della riga di comando dal prompt dei comandi con il comando `az`.
 
+## <a name="install-on-rhel-fedora-and-centos-with-yum"></a>Eseguire l'installazione in RHEL, Fedora e CentOS con yum
+
+Per le distribuzioni basate su RedHat e contenenti l'utilità di gestione pacchetti `yum`, è possibile installare l'interfaccia della riga di comando di Azure 2.0 tramite `yum`.
+
+1. Importare la chiave del repository Microsoft:
+
+   ```bash
+   sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+   ```
+
+2. Creare le informazioni del repository `azure-cli` locale:
+
+   ```bash
+   sudo sh -c 'echo -e "[azure-cli]\nname=Azure CLI\nbaseurl=https://packages.microsoft.com/yumrepos/azure-cli\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/azure-cli.repo'
+   ```
+
+3. Aggiornare l'indice del pacchetto `yum` ed eseguire l'installazione:
+
+   ```bash
+   yum check-update
+   sudo yum install azure-cli
+   ```
+
+4. Eseguire l'interfaccia della riga di comando dal prompt dei comandi con il comando `az`.
+
+## <a name="install-on-opensuse-and-sle-with-zypper"></a>Eseguire l'installazione in openSUSE e SLE con zypper
+
+1. Importare la chiave del repository Microsoft:
+
+   ```bash
+   sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+   ```
+
+2. Creare le informazioni del repository `azure-cli` locale:
+
+   ```bash
+   sudo sh -c 'echo -e "[azure-cli]\nname=Azure CLI\nbaseurl=https://packages.microsoft.com/yumrepos/azure-cli\nenabled=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/azure-cli.repo'
+   ```
+
+3. Aggiornare l'indice del pacchetto `zypper` ed eseguire l'installazione:
+
+   ```bash
+   sudo zypper refresh
+   sudo zypper install azure-cli
+   ```
+
+4. Eseguire l'interfaccia della riga di comando dal prompt dei comandi con il comando `az`.
+
 ## <a name="install-with-docker"></a>Eseguire l'installazione con Docker
 
 È disponibile un'immagine Docker preconfigurata con l'interfaccia della riga di comando di Azure 2.0.
 
 Installare l'interfaccia della riga di comando con `docker run`.
 
-  ```bash
-  docker run azuresdk/azure-cli-python:<version>
-  ```
+   ```bash
+   docker run azuresdk/azure-cli-python:<version>
+   ```
 
 Per le versioni disponibili, vedere i [tag di Docker](https://hub.docker.com/r/azuresdk/azure-cli-python/tags/).
 
@@ -128,7 +176,7 @@ L'interfaccia della riga di comando viene installata nell'immagine come il coman
 
 ## <a name="a-namelinuxinstall-on-linux-without-apt-get"></a><a name="Linux"/>Eseguire l'installazione in Linux senza apt-get
 
-È consigliabile installare l'interfaccia della riga di comando con `apt-get`, se possibile. Per le distribuzioni che non usano Gestione pacchetti `apt`, è possibile eseguire l'installazione manuale.
+È consigliabile installare l'interfaccia della riga di comando con un'utilità di gestione pacchetti, se possibile. Per le distribuzioni a cui non viene fornito un pacchetto, è possibile eseguire l'installazione manuale.
 
 1. Installare i prerequisiti in base alla distribuzione Linux specifica.
 
@@ -289,26 +337,26 @@ Se è stata installata un'immagine Docker, sarà necessario rimuovere eventuali 
 
 1. Ottenere i contenitori che eseguono l'immagine azure-cli.
 
-  ```bash
-  docker container ls -a --filter 'ancestor=azuresdk/azure-cli-python'
-  ```
+   ```bash
+   docker container ls -a --filter 'ancestor=azuresdk/azure-cli-python'
+   ```
 
-  ```output
-  CONTAINER ID        IMAGE                              COMMAND             CREATED             STATUS                        PORTS               NAMES
-  34a868beb2ab        azuresdk/azure-cli-python:latest      "/bin/sh -c bash"   8 minutes ago       Exited (0) 8 minutes ago                       inspiring_benz
-  ```
+   ```output
+   CONTAINER ID        IMAGE                              COMMAND             CREATED             STATUS                        PORTS               NAMES
+   34a868beb2ab        azuresdk/azure-cli-python:latest      "/bin/sh -c bash"   8 minutes ago       Exited (0) 8 minutes ago                       inspiring_benz
+   ```
 
 2. Eliminare eventuali contenitori con l'immagine dell'interfaccia della riga di comando.
 
-  ```bash
-  docker rm 34a868beb2ab
-  ```
+   ```bash
+   docker rm 34a868beb2ab
+   ```
 
 3. Rimuovere l'immagine dell'interfaccia della riga di comando installata in locale.
 
-  ```bash
-  docker rmi azuresdk/azure-cli-python
-  ```
+   ```bash
+   docker rmi azuresdk/azure-cli-python
+   ```
 
 > [!NOTE]
 > Se è stata installata una versione specifica dell'immagine, sarà necessario aggiungere `:<version>` alla fine del nome dell'immagine.
